@@ -1,2 +1,27 @@
-# Parallel-data-Processor
-A Java-based Parallel Data Processor that demonstrates multithreading using ExecutorService. It performs word count on a dataset using both sequential and parallel approaches and compares execution time to analyze performance efficiency.
+# Parallel Data Processor (Java)
+
+## 📌 Description
+This project demonstrates parallel data processing using Java multithreading.
+
+## 🚀 Features
+- Sequential vs Parallel processing
+- Word count analysis
+- Performance comparison
+- Uses ExecutorService
+
+## 🛠 Technologies
+- Java
+- Multithreading
+
+## ▶️ How to Run
+1. Compile the code
+2. Enter number of threads
+3. View results
+
+## 📊 Output
+- Total lines
+- Word count
+- Execution time comparison
+
+## 👩‍💻 Author
+Vibha Pal
