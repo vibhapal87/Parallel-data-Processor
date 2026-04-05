@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://code-sandbox.myanatomy.in/user-projects -->
+<html lang="en" data-theme="light"><__hrp__ data-ext-id="eanggfilgoajaocelnaflolkadkeghjp" style="position: relative !important; z-index: 2147483647 !important;"><link href="chrome-extension://eanggfilgoajaocelnaflolkadkeghjp/nj.css" rel="stylesheet"></__hrp__><span id="np-ss-auth-port" data-np-token="" data-np-logged-in="false" data-np-is-pro="false" style="display: none;"></span><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">:root{--toastify-color-light: #fff;--toastify-color-dark: #121212;--toastify-color-info: #3498db;--toastify-color-success: #07bc0c;--toastify-color-warning: #f1c40f;--toastify-color-error: hsl(6, 78%, 57%);--toastify-color-transparent: rgba(255, 255, 255, .7);--toastify-icon-color-info: var(--toastify-color-info);--toastify-icon-color-success: var(--toastify-color-success);--toastify-icon-color-warning: var(--toastify-color-warning);--toastify-icon-color-error: var(--toastify-color-error);--toastify-container-width: fit-content;--toastify-toast-width: 320px;--toastify-toast-offset: 16px;--toastify-toast-top: max(var(--toastify-toast-offset), env(safe-area-inset-top));--toastify-toast-right: max(var(--toastify-toast-offset), env(safe-area-inset-right));--toastify-toast-left: max(var(--toastify-toast-offset), env(safe-area-inset-left));--toastify-toast-bottom: max(var(--toastify-toast-offset), env(safe-area-inset-bottom));--toastify-toast-background: #fff;--toastify-toast-padding: 14px;--toastify-toast-min-height: 64px;--toastify-toast-max-height: 800px;--toastify-toast-bd-radius: 6px;--toastify-toast-shadow: 0px 4px 12px rgba(0, 0, 0, .1);--toastify-font-family: sans-serif;--toastify-z-index: 9999;--toastify-text-color-light: #757575;--toastify-text-color-dark: #fff;--toastify-text-color-info: #fff;--toastify-text-color-success: #fff;--toastify-text-color-warning: #fff;--toastify-text-color-error: #fff;--toastify-spinner-color: #616161;--toastify-spinner-color-empty-area: #e0e0e0;--toastify-color-progress-light: linear-gradient(to right, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);--toastify-color-progress-dark: #bb86fc;--toastify-color-progress-info: var(--toastify-color-info);--toastify-color-progress-success: var(--toastify-color-success);--toastify-color-progress-warning: var(--toastify-color-warning);--toastify-color-progress-error: var(--toastify-color-error);--toastify-color-progress-bgo: .2}.Toastify__toast-container{z-index:var(--toastify-z-index);-webkit-transform:translate3d(0,0,var(--toastify-z-index));position:fixed;width:var(--toastify-container-width);box-sizing:border-box;color:#fff;display:flex;flex-direction:column}.Toastify__toast-container--top-left{top:var(--toastify-toast-top);left:var(--toastify-toast-left)}.Toastify__toast-container--top-center{top:var(--toastify-toast-top);left:50%;transform:translate(-50%);align-items:center}.Toastify__toast-container--top-right{top:var(--toastify-toast-top);right:var(--toastify-toast-right);align-items:end}.Toastify__toast-container--bottom-left{bottom:var(--toastify-toast-bottom);left:var(--toastify-toast-left)}.Toastify__toast-container--bottom-center{bottom:var(--toastify-toast-bottom);left:50%;transform:translate(-50%);align-items:center}.Toastify__toast-container--bottom-right{bottom:var(--toastify-toast-bottom);right:var(--toastify-toast-right);align-items:end}.Toastify__toast{--y: 0;position:relative;touch-action:none;width:var(--toastify-toast-width);min-height:var(--toastify-toast-min-height);box-sizing:border-box;margin-bottom:1rem;padding:var(--toastify-toast-padding);border-radius:var(--toastify-toast-bd-radius);box-shadow:var(--toastify-toast-shadow);max-height:var(--toastify-toast-max-height);font-family:var(--toastify-font-family);z-index:0;display:flex;flex:1 auto;align-items:center;word-break:break-word}@media only screen and (max-width: 480px){.Toastify__toast-container{width:100vw;left:env(safe-area-inset-left);margin:0}.Toastify__toast-container--top-left,.Toastify__toast-container--top-center,.Toastify__toast-container--top-right{top:env(safe-area-inset-top);transform:translate(0)}.Toastify__toast-container--bottom-left,.Toastify__toast-container--bottom-center,.Toastify__toast-container--bottom-right{bottom:env(safe-area-inset-bottom);transform:translate(0)}.Toastify__toast-container--rtl{right:env(safe-area-inset-right);left:initial}.Toastify__toast{--toastify-toast-width: 100%;margin-bottom:0;border-radius:0}}.Toastify__toast-container[data-stacked=true]{width:var(--toastify-toast-width)}.Toastify__toast--stacked{position:absolute;width:100%;transform:translate3d(0,var(--y),0) scale(var(--s));transition:transform .3s}.Toastify__toast--stacked[data-collapsed] .Toastify__toast-body,.Toastify__toast--stacked[data-collapsed] .Toastify__close-button{transition:opacity .1s}.Toastify__toast--stacked[data-collapsed=false]{overflow:visible}.Toastify__toast--stacked[data-collapsed=true]:not(:last-child)>*{opacity:0}.Toastify__toast--stacked:after{content:"";position:absolute;left:0;right:0;height:calc(var(--g) * 1px);bottom:100%}.Toastify__toast--stacked[data-pos=top]{top:0}.Toastify__toast--stacked[data-pos=bot]{bottom:0}.Toastify__toast--stacked[data-pos=bot].Toastify__toast--stacked:before{transform-origin:top}.Toastify__toast--stacked[data-pos=top].Toastify__toast--stacked:before{transform-origin:bottom}.Toastify__toast--stacked:before{content:"";position:absolute;left:0;right:0;bottom:0;height:100%;transform:scaleY(3);z-index:-1}.Toastify__toast--rtl{direction:rtl}.Toastify__toast--close-on-click{cursor:pointer}.Toastify__toast-icon{margin-inline-end:10px;width:22px;flex-shrink:0;display:flex}.Toastify--animate{animation-fill-mode:both;animation-duration:.5s}.Toastify--animate-icon{animation-fill-mode:both;animation-duration:.3s}.Toastify__toast-theme--dark{background:var(--toastify-color-dark);color:var(--toastify-text-color-dark)}.Toastify__toast-theme--light,.Toastify__toast-theme--colored.Toastify__toast--default{background:var(--toastify-color-light);color:var(--toastify-text-color-light)}.Toastify__toast-theme--colored.Toastify__toast--info{color:var(--toastify-text-color-info);background:var(--toastify-color-info)}.Toastify__toast-theme--colored.Toastify__toast--success{color:var(--toastify-text-color-success);background:var(--toastify-color-success)}.Toastify__toast-theme--colored.Toastify__toast--warning{color:var(--toastify-text-color-warning);background:var(--toastify-color-warning)}.Toastify__toast-theme--colored.Toastify__toast--error{color:var(--toastify-text-color-error);background:var(--toastify-color-error)}.Toastify__progress-bar-theme--light{background:var(--toastify-color-progress-light)}.Toastify__progress-bar-theme--dark{background:var(--toastify-color-progress-dark)}.Toastify__progress-bar--info{background:var(--toastify-color-progress-info)}.Toastify__progress-bar--success{background:var(--toastify-color-progress-success)}.Toastify__progress-bar--warning{background:var(--toastify-color-progress-warning)}.Toastify__progress-bar--error{background:var(--toastify-color-progress-error)}.Toastify__progress-bar-theme--colored.Toastify__progress-bar--info,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--success,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--warning,.Toastify__progress-bar-theme--colored.Toastify__progress-bar--error{background:var(--toastify-color-transparent)}.Toastify__close-button{color:#fff;position:absolute;top:6px;right:6px;background:transparent;outline:none;border:none;padding:0;cursor:pointer;opacity:.7;transition:.3s ease;z-index:1}.Toastify__toast--rtl .Toastify__close-button{left:6px;right:unset}.Toastify__close-button--light{color:#000;opacity:.3}.Toastify__close-button>svg{fill:currentColor;height:16px;width:14px}.Toastify__close-button:hover,.Toastify__close-button:focus{opacity:1}@keyframes Toastify__trackProgress{0%{transform:scaleX(1)}to{transform:scaleX(0)}}.Toastify__progress-bar{position:absolute;bottom:0;left:0;width:100%;height:100%;z-index:1;opacity:.7;transform-origin:left}.Toastify__progress-bar--animated{animation:Toastify__trackProgress linear 1 forwards}.Toastify__progress-bar--controlled{transition:transform .2s}.Toastify__progress-bar--rtl{right:0;left:initial;transform-origin:right;border-bottom-left-radius:initial}.Toastify__progress-bar--wrp{position:absolute;overflow:hidden;bottom:0;left:0;width:100%;height:5px;border-bottom-left-radius:var(--toastify-toast-bd-radius);border-bottom-right-radius:var(--toastify-toast-bd-radius)}.Toastify__progress-bar--wrp[data-hidden=true]{opacity:0}.Toastify__progress-bar--bg{opacity:var(--toastify-color-progress-bgo);width:100%;height:100%}.Toastify__spinner{width:20px;height:20px;box-sizing:border-box;border:2px solid;border-radius:100%;border-color:var(--toastify-spinner-color-empty-area);border-right-color:var(--toastify-spinner-color);animation:Toastify__spin .65s linear infinite}@keyframes Toastify__bounceInRight{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(3000px,0,0)}60%{opacity:1;transform:translate3d(-25px,0,0)}75%{transform:translate3d(10px,0,0)}90%{transform:translate3d(-5px,0,0)}to{transform:none}}@keyframes Toastify__bounceOutRight{20%{opacity:1;transform:translate3d(-20px,var(--y),0)}to{opacity:0;transform:translate3d(2000px,var(--y),0)}}@keyframes Toastify__bounceInLeft{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(-3000px,0,0)}60%{opacity:1;transform:translate3d(25px,0,0)}75%{transform:translate3d(-10px,0,0)}90%{transform:translate3d(5px,0,0)}to{transform:none}}@keyframes Toastify__bounceOutLeft{20%{opacity:1;transform:translate3d(20px,var(--y),0)}to{opacity:0;transform:translate3d(-2000px,var(--y),0)}}@keyframes Toastify__bounceInUp{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(0,3000px,0)}60%{opacity:1;transform:translate3d(0,-20px,0)}75%{transform:translate3d(0,10px,0)}90%{transform:translate3d(0,-5px,0)}to{transform:translateZ(0)}}@keyframes Toastify__bounceOutUp{20%{transform:translate3d(0,calc(var(--y) - 10px),0)}40%,45%{opacity:1;transform:translate3d(0,calc(var(--y) + 20px),0)}to{opacity:0;transform:translate3d(0,-2000px,0)}}@keyframes Toastify__bounceInDown{0%,60%,75%,90%,to{animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;transform:translate3d(0,-3000px,0)}60%{opacity:1;transform:translate3d(0,25px,0)}75%{transform:translate3d(0,-10px,0)}90%{transform:translate3d(0,5px,0)}to{transform:none}}@keyframes Toastify__bounceOutDown{20%{transform:translate3d(0,calc(var(--y) - 10px),0)}40%,45%{opacity:1;transform:translate3d(0,calc(var(--y) + 20px),0)}to{opacity:0;transform:translate3d(0,2000px,0)}}.Toastify__bounce-enter--top-left,.Toastify__bounce-enter--bottom-left{animation-name:Toastify__bounceInLeft}.Toastify__bounce-enter--top-right,.Toastify__bounce-enter--bottom-right{animation-name:Toastify__bounceInRight}.Toastify__bounce-enter--top-center{animation-name:Toastify__bounceInDown}.Toastify__bounce-enter--bottom-center{animation-name:Toastify__bounceInUp}.Toastify__bounce-exit--top-left,.Toastify__bounce-exit--bottom-left{animation-name:Toastify__bounceOutLeft}.Toastify__bounce-exit--top-right,.Toastify__bounce-exit--bottom-right{animation-name:Toastify__bounceOutRight}.Toastify__bounce-exit--top-center{animation-name:Toastify__bounceOutUp}.Toastify__bounce-exit--bottom-center{animation-name:Toastify__bounceOutDown}@keyframes Toastify__zoomIn{0%{opacity:0;transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes Toastify__zoomOut{0%{opacity:1}50%{opacity:0;transform:translate3d(0,var(--y),0) scale3d(.3,.3,.3)}to{opacity:0}}.Toastify__zoom-enter{animation-name:Toastify__zoomIn}.Toastify__zoom-exit{animation-name:Toastify__zoomOut}@keyframes Toastify__flipIn{0%{transform:perspective(400px) rotateX(90deg);animation-timing-function:ease-in;opacity:0}40%{transform:perspective(400px) rotateX(-20deg);animation-timing-function:ease-in}60%{transform:perspective(400px) rotateX(10deg);opacity:1}80%{transform:perspective(400px) rotateX(-5deg)}to{transform:perspective(400px)}}@keyframes Toastify__flipOut{0%{transform:translate3d(0,var(--y),0) perspective(400px)}30%{transform:translate3d(0,var(--y),0) perspective(400px) rotateX(-20deg);opacity:1}to{transform:translate3d(0,var(--y),0) perspective(400px) rotateX(90deg);opacity:0}}.Toastify__flip-enter{animation-name:Toastify__flipIn}.Toastify__flip-exit{animation-name:Toastify__flipOut}@keyframes Toastify__slideInRight{0%{transform:translate3d(110%,0,0);visibility:visible}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideInLeft{0%{transform:translate3d(-110%,0,0);visibility:visible}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideInUp{0%{transform:translate3d(0,110%,0);visibility:visible}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideInDown{0%{transform:translate3d(0,-110%,0);visibility:visible}to{transform:translate3d(0,var(--y),0)}}@keyframes Toastify__slideOutRight{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translate3d(110%,var(--y),0)}}@keyframes Toastify__slideOutLeft{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translate3d(-110%,var(--y),0)}}@keyframes Toastify__slideOutDown{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translate3d(0,500px,0)}}@keyframes Toastify__slideOutUp{0%{transform:translate3d(0,var(--y),0)}to{visibility:hidden;transform:translate3d(0,-500px,0)}}.Toastify__slide-enter--top-left,.Toastify__slide-enter--bottom-left{animation-name:Toastify__slideInLeft}.Toastify__slide-enter--top-right,.Toastify__slide-enter--bottom-right{animation-name:Toastify__slideInRight}.Toastify__slide-enter--top-center{animation-name:Toastify__slideInDown}.Toastify__slide-enter--bottom-center{animation-name:Toastify__slideInUp}.Toastify__slide-exit--top-left,.Toastify__slide-exit--bottom-left{animation-name:Toastify__slideOutLeft;animation-timing-function:ease-in;animation-duration:.3s}.Toastify__slide-exit--top-right,.Toastify__slide-exit--bottom-right{animation-name:Toastify__slideOutRight;animation-timing-function:ease-in;animation-duration:.3s}.Toastify__slide-exit--top-center{animation-name:Toastify__slideOutUp;animation-timing-function:ease-in;animation-duration:.3s}.Toastify__slide-exit--bottom-center{animation-name:Toastify__slideOutDown;animation-timing-function:ease-in;animation-duration:.3s}@keyframes Toastify__spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
+</style>
+  
+  <link rel="icon" type="image/svg+xml" href="https://code-sandbox.myanatomy.in/myanatomy.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Coding Challenges, Projects &amp; Hands-On Exercises on Code Sandbox</title>
+  <link href="./parallel data processor_files/css2" rel="stylesheet">
+  <script type="text/javascript" charset="UTF-8" async="" src="./parallel data processor_files/cc.js.download"></script><script id="Cookiebot" src="./parallel data processor_files/uc.js.download" data-cbid="3e1d5916-542d-4848-9c96-14bfcb461d9c" type="text/javascript" async=""></script>
+  <!-- google-analytics -->
+<!-- Google tag (gtag.js) -->
+<script async="" src="./parallel data processor_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-YLCQ1VKEGK');
+</script>  <script type="module" crossorigin="" src="./parallel data processor_files/index-CmCD7lFE.js.download"></script>
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/anser-CB0WwdBD.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-4ISzD5Bz.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/scheduler-C323NY8X.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-dom-Q56Rs_yc.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/use-sync-external-store-CVWxCBO-.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-redux-DyaUA03q.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-router-dAZkm-Oe.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/clsx-B-dksMZM.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-toastify-CqBGdu9I.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/redux-BJhkHWXh.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/redux-persist-UfGMtT75.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/immer-fBqQtvEc.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/redux-thunk-ClJT1hhx.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/reselect-utOO-l3Z.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/reduxjs-Duni5OAF.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/redux-logger-B85sVixN.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/enumerations-CbQor1JW.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/constants-BOVYYxnh.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/axios-D8rVyQy1.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/tslib-BLN2B0TR.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/fingerprintjs-92Q0JS8d.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/validator-BlyNHBeg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/file-saver-DR7QblYX.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/marked-DajSjiQI.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/utils-BC1gl3lg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/middlewares-CqWoK7zK.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/livekit-client-DS-mkXDC.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/livekit-__0lP2Xw.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/engine.io-parser-BiEtp6m2.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/socket.io-Dkula2eQ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/engine.io-client-C2tNOekN.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/socket.io-parser-D7oIFs3X.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/socket.io-client-DIOUPndN.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/app-store-BPQid8qw.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-icons-BKXMV3QG.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/babel-CdypO4Dw.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-transition-group-DAnZ2KFk.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hoist-non-react-statics-C-Qo8PK8.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/stylis-DDa9OTMq.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/emotion-Cjd8DM8W.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/popperjs-CMBiYTiD.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mui-Bfw-6Tp2.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/statics-DBg-PQW6.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/driver.js-DjFsC4cT.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/stitches-VsLkt6Wh.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/dequal-tFQomdd2.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/outvariant-Do93_DUC.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/lezer-Dkeuo7CB.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/marijn-DXwl3gUT.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/style-mod-Bc2inJdb.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/w3c-keyname-Vcq4gwWv.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/codemirror-CwPpURA1.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/intersection-observer-DzNNUe4q.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-hook-jVau83wn.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/escape-carriage-CO6I5rNS.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/lz-string-Des6WsDm.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/clean-set-CundCx1G.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/static-browser-server-BemqRL5p.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mime-db-B5jAcETd.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/codesandbox-DVVteI5x.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/ts-dedent-DrFu-skq.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-timer-DdKHrDhs.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-dispatch-kxCwF96_.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-color-amxIadob.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-interpolate-CfLzPKWk.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-selection-Bj1BqfTz.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-ease-DRPgKoYJ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-transition-B3UNvQtR.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-zoom-BPoWDlND.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/dompurify-9JUW7zMc.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/lodash-es-DccjO_EN.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/dagre-d3-es-oKJJIrhg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/braintree-DqsDrhtD.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/khroma-DUX6PT6k.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/vscode-jsonrpc-1VOqS1Ai.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/chevrotain-or78rMRw.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/chevrotain-allstar-Bxd_DIZP.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/vscode-languageserver-types-NoPvPymt.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/vscode-languageserver-textdocument-CKBVUiR3.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/vscode-uri-CoxP0whD.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/langium-wa6vXVxZ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mermaid-js-CGpUwPza.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/dayjs-BX6Bl_Cg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/internmap-BkD7Hj8s.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-array-DGRYoJHh.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-format-CzD4bSOQ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-time-6cSPyVSY.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-time-format-CUNN4Ell.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-scale-BchcX-lF.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-axis-DSWTncID.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-path-CimkQT29.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-shape-CcP_g-Bt.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/roughjs-GtHDBO_d.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/cytoscape-BY7v1xhs.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/layout-base-sIRG--q9.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/cose-base-FHd0hdF1.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/cytoscape-cose-bilkent-CxnKWOAv.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-sankey-CgO6js3K.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/d3-scale-chromatic-CvOaoHrI.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/iconify-D2F_yRRF.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/cytoscape-fcose-YULAdSsS.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mermaid-gwkwfrld.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/tsparticles-DqrN7pp0.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/motion-utils-CYU-yiCP.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/motion-dom-BucRcEpm.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/framer-motion-twHATG3n.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/parse-numeric-range-BSVu3-TR.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/space-separated-tokens-D7QSIrTI.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/comma-separated-tokens-CRUGqg4f.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/character-entities-legacy-BpoLgcEt.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/character-reference-invalid-ClcxO6OC.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/is-decimal-CJ0gF_dh.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/is-hexadecimal-BKo14zVu.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/is-alphabetical-jPfmTawd.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/is-alphanumerical-58alR0B7.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/decode-named-character-reference-C3-224fz.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/parse-entities-CmM5msvd.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/refractor-de075bYA.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/unist-util-is-D9KQvrmg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/unist-util-visit-parents-CUezI4aM.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/unist-util-visit-Dza3JKCM.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-to-string-CAVF9NB8.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/unist-util-filter-BKLU6SLj.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/property-information-C9h7DxWW.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/css-selector-parser-BaJEBm3N.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/direction-BFWvkRq0.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/devlop-Cl3hj7Sz.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/bcp-47-match-Cq88Dg_3.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/boolbase-CboHXzAd.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/nth-check-C_OIBEFH.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/zwitch-C2o2j-tx.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-has-property-BRFdt-Gn.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-whitespace-D4Wp6AEg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-select-DazMfubq.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-rewrite-eKVbJ10U.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-attr-DQypyM3o.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/remark-github-blockquote-alert-kDis1nys.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-chunked-DrRIdSP-.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-combine-extensions-Bka6Sc1c.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-character-Cn8n62xE.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-extension-gfm-autolink-literal-BQfQ1Zem.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-factory-space-Bzki161k.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-normalize-identifier-C9ANKk3v.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-classify-character-72LGz2mN.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-resolve-all-PQCKh0dx.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-subtokenize-BC4BSQ9J.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-factory-destination-Dhx6mInV.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-factory-label-Dm2aTycn.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-factory-title-B-Q3zsGF.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-factory-whitespace-DxqLJ6OX.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-html-tag-name-DbKNfynz.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-core-commonmark-CH1HDFCm.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-extension-gfm-footnote-DkhwFsuS.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-extension-gfm-strikethrough-DRvqaQ9w.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-extension-gfm-table-DeUU3o88.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-extension-gfm-task-list-item-CQ-9H0He.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-extension-gfm-AxZ6nl5T.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/ccount-c2V3InAJ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-find-and-replace-ClOhUni4.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-gfm-autolink-literal-DVoQNrEq.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-gfm-footnote-DOFKMeKV.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-gfm-strikethrough-Cj9qKt6Q.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/markdown-table-DvhhVmnL.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/longest-streak-CtXnX3Xp.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-to-string-C_aolqmU.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-phrasing-C4Vf_nAi.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-to-markdown-BfFAO-wY.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-gfm-table-CdISxMhX.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-gfm-task-list-item-BKRtbzM6.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-gfm-bZn8h_NE.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/remark-gfm-DwT2vkgM.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/bail-FqpXQuLt.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/extend-HB3oli18.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/is-plain-obj-C1gvLhAf.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/trough-B_b8ryxu.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/unist-util-stringify-position-Ch_qCilz.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/vfile-message-Bq256rVA.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/vfile-tbz-BywF.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/unified-D1yvgBlT.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-decode-numeric-character-reference-CNs1qBpV.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-decode-string-strjl-tx.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-CtXuTyED.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-from-markdown-DzmWAGqa.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/remark-parse-2duw96MN.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/ungap--gfxRhYI.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/micromark-util-sanitize-uri-B1mpwOqX.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/unist-util-position-60F3QETU.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/trim-lines-D8znQY54.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/mdast-util-to-hast-Dw9pCdx8.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/remark-rehype-DDq2w8aP.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/inline-style-parser-D4u_cg7q.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/style-to-object-Oc--562q.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/style-to-js-DRJbAmLO.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/estree-util-is-identifier-name-BgBfM8ME.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-to-jsx-runtime-Bz5t4fmQ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/html-url-attributes-D46m5wfe.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-markdown-CRQZQaGi.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/html-void-elements-CkdplsNl.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/parse5-Drq0tY0g.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/web-namespaces-bsVAaBS1.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-parse-selector-TXfch5wI.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hastscript-CKFUpcPX.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/vfile-location-LfEFwJ2h.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-from-parse5-sdQbqDDN.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-to-parse5-BpROchYW.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-raw-B6sfvHK0.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-raw-BJsOsgbW.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-ignore-BY2CbMVx.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/github-slugger-CQ4oX9Ud.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-heading-rank-2b08BCqQ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-slug-aUApxI8e.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-is-element-DyH4pHXM.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-autolink-headings-C6wQMGCk.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-from-html-B6_6gKV4.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-parse-jkuG3elO.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/character-entities-html4-D7taRCQ7.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/stringify-entities-CnbJBXhi.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-to-html-BtJ4hRks.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-stringify-26HJ8xC0.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-LYZxjO2w.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-prism-plus-PEcOXi53.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/uiw-DudqEnMd.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/hast-util-sanitize-CObJLGhl.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/rehype-sanitize-WJZlFLYs.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/uuid-C6aID195.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/lucide-react-B1Ary7DE.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/lodash-D9WQfq2A.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/split-pane-react-BUrBwesS.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/lodash.debounce-CTwrE-_h.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/classnames-LvzHWtTh.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/resize-observer-polyfill-DJkEj0q4.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/string-convert-Bhuo--sE.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/json2mq-DmRDQ8Ce.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/enquire.js-B8qsBZnP.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-slick-CB8XPKk2.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/state-local-BBNhjlcY.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/monaco-editor-D1CLBU1Y.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/monaco-themes-BQcwC5w_.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/floating-ui-CWn-I4d9.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/use-isomorphic-layout-effect-BgzlEqG8.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/memoize-one-BdPwpGay.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-select-Du7D4pVg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/juggle-C8OzoCMD.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-use-measure-aMFXv1K4.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/dnd-core-D9oSKDTR.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/fast-deep-equal-CH_MBlyC.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-dnd-B84UcQrk.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/react-dnd-html5-backend-rd8NuOaI.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/minoru-BwkWaAtg.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/simplebar-core-Be5MXVMV.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/simplebar-react-CUoz9IHP.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/codeium-HnwY5GdA.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/he-BYdb6WfQ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/flexlayout-react-BYBFPvWj.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/lib0-BXeB5XZ4.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/yjs-BvSYNRp-.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/y-protocols-BFLEQD3O.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/y-websocket-BbJDZvWl.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/y-monaco-DNcqPAYq.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/xterm-nK5IxLzJ.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/business-components-BW05kx93.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/shared-components-u-DNvNoG.js">
+  <link rel="modulepreload" crossorigin="" href="https://code-sandbox.myanatomy.in/assets/main.tsx-C9qo99tX.js">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/react-toastify-GNLSjkBZ.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/driver-DB0Q8XAf.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/uiw-BJBUeiC3.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/split-pane-react-CS6BsBt9.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/monaco-editor-CXBm6MfC.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/simplebar-react-CxjVi7H7.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/flexlayout-react-CCCeVveG.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/xterm-DYP7pi_n.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/business-components-DgTRTWS4.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/slick-carousel-FK2csP6v.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/shared-components-C-HddLob.css">
+  <link rel="stylesheet" crossorigin="" href="./parallel data processor_files/index-B1XBoiN4.css">
+<style></style><style type="text/css" id="CookieConsentStateDisplayStyles">.cookieconsent-optin-preferences,.cookieconsent-optin-statistics,.cookieconsent-optin-marketing,.cookieconsent-optin{display:none;}.cookieconsent-optout-preferences,.cookieconsent-optout-statistics,.cookieconsent-optout-marketing,.cookieconsent-optout{display:block;display:initial;}</style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css" data-s=""></style><meta name="description" content="Discover coding challenges, project ideas, and guided exercises to build skills in real time and prepare for technical assessments on Code Sandbox by My Anatomy."><meta property="og:title" content="Explore Coding Challenges, Projects &amp; Hands-On Exercises on Code Sandbox"><meta property="og:description" content="Discover coding challenges, project ideas, and guided exercises to build skills in real time and prepare for technical assessments on Code Sandbox by My Anatomy."><style id="force-text-selection-style">
+            * {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                -webkit-touch-callout: default !important;
+            }
+            /* Override common classes that disable text selection */
+            .no-select, .noselect, .unselectable,
+            .qaas-disable-text-selection,
+            .qaas-disable-text-selection *,
+            [data-disable-text-selection],
+            [data-disable-text-selection] *,
+            [unselectable="on"],
+            [onselectstart],
+            [ondragstart] {
+                -webkit-user-select: text !important;
+                -moz-user-select: text !important;
+                -ms-user-select: text !important;
+                user-select: text !important;
+                -webkit-touch-callout: default !important;
+            }
+        </style><script src="chrome-extension://deojfdehldjjfmcjcfaojgaibalafifc/data/inject/exam.js"></script><link href="./parallel data processor_files/css2(1)" rel="stylesheet"><style>
+                [class*="cc-1m2mf"]:not(#chat-overlay):not(#chat-overlay *) {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
+                }
+            
+
+                [class*="cc-1qbp0"]:not(#chat-overlay):not(#chat-overlay *) {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
+                }
+            
+
+                [class*="cc-1o31k"]:not(#chat-overlay):not(#chat-overlay *) {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
+                }
+            
+
+                [class*="cc-otlyh"]:not(#chat-overlay):not(#chat-overlay *) {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
+                }
+            
+
+                [class*="cc-11f3x"]:not(#chat-overlay):not(#chat-overlay *) {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
+                }
+            
+
+                [class*="cc-1v4wj"]:not(#chat-overlay):not(#chat-overlay *) {
+                    display: none !important;
+                    visibility: hidden !important;
+                    opacity: 0 !important;
+                    pointer-events: none !important;
+                }
+            </style><script async="async" type="text/javascript" src="./parallel data processor_files/editor.main.js.download"></script><link rel="stylesheet" type="text/css" data-name="vs/editor/editor.main" href="./parallel data processor_files/editor.main.css"><script async="async" type="text/javascript" src="./parallel data processor_files/editor.main.nls.js.download"></script><script async="async" type="text/javascript" src="./parallel data processor_files/java.js.download"></script><style type="text/css" media="screen" class="monaco-colors">.codicon-add:before { content: '\ea60'; }
+.codicon-plus:before { content: '\ea60'; }
+.codicon-gist-new:before { content: '\ea60'; }
+.codicon-repo-create:before { content: '\ea60'; }
+.codicon-lightbulb:before { content: '\ea61'; }
+.codicon-light-bulb:before { content: '\ea61'; }
+.codicon-repo:before { content: '\ea62'; }
+.codicon-repo-delete:before { content: '\ea62'; }
+.codicon-gist-fork:before { content: '\ea63'; }
+.codicon-repo-forked:before { content: '\ea63'; }
+.codicon-git-pull-request:before { content: '\ea64'; }
+.codicon-git-pull-request-abandoned:before { content: '\ea64'; }
+.codicon-record-keys:before { content: '\ea65'; }
+.codicon-keyboard:before { content: '\ea65'; }
+.codicon-tag:before { content: '\ea66'; }
+.codicon-tag-add:before { content: '\ea66'; }
+.codicon-tag-remove:before { content: '\ea66'; }
+.codicon-git-pull-request-label:before { content: '\ea66'; }
+.codicon-person:before { content: '\ea67'; }
+.codicon-person-follow:before { content: '\ea67'; }
+.codicon-person-outline:before { content: '\ea67'; }
+.codicon-person-filled:before { content: '\ea67'; }
+.codicon-git-branch:before { content: '\ea68'; }
+.codicon-git-branch-create:before { content: '\ea68'; }
+.codicon-git-branch-delete:before { content: '\ea68'; }
+.codicon-source-control:before { content: '\ea68'; }
+.codicon-mirror:before { content: '\ea69'; }
+.codicon-mirror-public:before { content: '\ea69'; }
+.codicon-star:before { content: '\ea6a'; }
+.codicon-star-add:before { content: '\ea6a'; }
+.codicon-star-delete:before { content: '\ea6a'; }
+.codicon-star-empty:before { content: '\ea6a'; }
+.codicon-comment:before { content: '\ea6b'; }
+.codicon-comment-add:before { content: '\ea6b'; }
+.codicon-alert:before { content: '\ea6c'; }
+.codicon-warning:before { content: '\ea6c'; }
+.codicon-search:before { content: '\ea6d'; }
+.codicon-search-save:before { content: '\ea6d'; }
+.codicon-log-out:before { content: '\ea6e'; }
+.codicon-sign-out:before { content: '\ea6e'; }
+.codicon-log-in:before { content: '\ea6f'; }
+.codicon-sign-in:before { content: '\ea6f'; }
+.codicon-eye:before { content: '\ea70'; }
+.codicon-eye-unwatch:before { content: '\ea70'; }
+.codicon-eye-watch:before { content: '\ea70'; }
+.codicon-circle-filled:before { content: '\ea71'; }
+.codicon-primitive-dot:before { content: '\ea71'; }
+.codicon-close-dirty:before { content: '\ea71'; }
+.codicon-debug-breakpoint:before { content: '\ea71'; }
+.codicon-debug-breakpoint-disabled:before { content: '\ea71'; }
+.codicon-debug-hint:before { content: '\ea71'; }
+.codicon-primitive-square:before { content: '\ea72'; }
+.codicon-edit:before { content: '\ea73'; }
+.codicon-pencil:before { content: '\ea73'; }
+.codicon-info:before { content: '\ea74'; }
+.codicon-issue-opened:before { content: '\ea74'; }
+.codicon-gist-private:before { content: '\ea75'; }
+.codicon-git-fork-private:before { content: '\ea75'; }
+.codicon-lock:before { content: '\ea75'; }
+.codicon-mirror-private:before { content: '\ea75'; }
+.codicon-close:before { content: '\ea76'; }
+.codicon-remove-close:before { content: '\ea76'; }
+.codicon-x:before { content: '\ea76'; }
+.codicon-repo-sync:before { content: '\ea77'; }
+.codicon-sync:before { content: '\ea77'; }
+.codicon-clone:before { content: '\ea78'; }
+.codicon-desktop-download:before { content: '\ea78'; }
+.codicon-beaker:before { content: '\ea79'; }
+.codicon-microscope:before { content: '\ea79'; }
+.codicon-vm:before { content: '\ea7a'; }
+.codicon-device-desktop:before { content: '\ea7a'; }
+.codicon-file:before { content: '\ea7b'; }
+.codicon-file-text:before { content: '\ea7b'; }
+.codicon-more:before { content: '\ea7c'; }
+.codicon-ellipsis:before { content: '\ea7c'; }
+.codicon-kebab-horizontal:before { content: '\ea7c'; }
+.codicon-mail-reply:before { content: '\ea7d'; }
+.codicon-reply:before { content: '\ea7d'; }
+.codicon-organization:before { content: '\ea7e'; }
+.codicon-organization-filled:before { content: '\ea7e'; }
+.codicon-organization-outline:before { content: '\ea7e'; }
+.codicon-new-file:before { content: '\ea7f'; }
+.codicon-file-add:before { content: '\ea7f'; }
+.codicon-new-folder:before { content: '\ea80'; }
+.codicon-file-directory-create:before { content: '\ea80'; }
+.codicon-trash:before { content: '\ea81'; }
+.codicon-trashcan:before { content: '\ea81'; }
+.codicon-history:before { content: '\ea82'; }
+.codicon-clock:before { content: '\ea82'; }
+.codicon-folder:before { content: '\ea83'; }
+.codicon-file-directory:before { content: '\ea83'; }
+.codicon-symbol-folder:before { content: '\ea83'; }
+.codicon-logo-github:before { content: '\ea84'; }
+.codicon-mark-github:before { content: '\ea84'; }
+.codicon-github:before { content: '\ea84'; }
+.codicon-terminal:before { content: '\ea85'; }
+.codicon-console:before { content: '\ea85'; }
+.codicon-repl:before { content: '\ea85'; }
+.codicon-zap:before { content: '\ea86'; }
+.codicon-symbol-event:before { content: '\ea86'; }
+.codicon-error:before { content: '\ea87'; }
+.codicon-stop:before { content: '\ea87'; }
+.codicon-variable:before { content: '\ea88'; }
+.codicon-symbol-variable:before { content: '\ea88'; }
+.codicon-array:before { content: '\ea8a'; }
+.codicon-symbol-array:before { content: '\ea8a'; }
+.codicon-symbol-module:before { content: '\ea8b'; }
+.codicon-symbol-package:before { content: '\ea8b'; }
+.codicon-symbol-namespace:before { content: '\ea8b'; }
+.codicon-symbol-object:before { content: '\ea8b'; }
+.codicon-symbol-method:before { content: '\ea8c'; }
+.codicon-symbol-function:before { content: '\ea8c'; }
+.codicon-symbol-constructor:before { content: '\ea8c'; }
+.codicon-symbol-boolean:before { content: '\ea8f'; }
+.codicon-symbol-null:before { content: '\ea8f'; }
+.codicon-symbol-numeric:before { content: '\ea90'; }
+.codicon-symbol-number:before { content: '\ea90'; }
+.codicon-symbol-structure:before { content: '\ea91'; }
+.codicon-symbol-struct:before { content: '\ea91'; }
+.codicon-symbol-parameter:before { content: '\ea92'; }
+.codicon-symbol-type-parameter:before { content: '\ea92'; }
+.codicon-symbol-key:before { content: '\ea93'; }
+.codicon-symbol-text:before { content: '\ea93'; }
+.codicon-symbol-reference:before { content: '\ea94'; }
+.codicon-go-to-file:before { content: '\ea94'; }
+.codicon-symbol-enum:before { content: '\ea95'; }
+.codicon-symbol-value:before { content: '\ea95'; }
+.codicon-symbol-ruler:before { content: '\ea96'; }
+.codicon-symbol-unit:before { content: '\ea96'; }
+.codicon-activate-breakpoints:before { content: '\ea97'; }
+.codicon-archive:before { content: '\ea98'; }
+.codicon-arrow-both:before { content: '\ea99'; }
+.codicon-arrow-down:before { content: '\ea9a'; }
+.codicon-arrow-left:before { content: '\ea9b'; }
+.codicon-arrow-right:before { content: '\ea9c'; }
+.codicon-arrow-small-down:before { content: '\ea9d'; }
+.codicon-arrow-small-left:before { content: '\ea9e'; }
+.codicon-arrow-small-right:before { content: '\ea9f'; }
+.codicon-arrow-small-up:before { content: '\eaa0'; }
+.codicon-arrow-up:before { content: '\eaa1'; }
+.codicon-bell:before { content: '\eaa2'; }
+.codicon-bold:before { content: '\eaa3'; }
+.codicon-book:before { content: '\eaa4'; }
+.codicon-bookmark:before { content: '\eaa5'; }
+.codicon-debug-breakpoint-conditional-unverified:before { content: '\eaa6'; }
+.codicon-debug-breakpoint-conditional:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-conditional-disabled:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-data-unverified:before { content: '\eaa8'; }
+.codicon-debug-breakpoint-data:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-data-disabled:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-log-unverified:before { content: '\eaaa'; }
+.codicon-debug-breakpoint-log:before { content: '\eaab'; }
+.codicon-debug-breakpoint-log-disabled:before { content: '\eaab'; }
+.codicon-briefcase:before { content: '\eaac'; }
+.codicon-broadcast:before { content: '\eaad'; }
+.codicon-browser:before { content: '\eaae'; }
+.codicon-bug:before { content: '\eaaf'; }
+.codicon-calendar:before { content: '\eab0'; }
+.codicon-case-sensitive:before { content: '\eab1'; }
+.codicon-check:before { content: '\eab2'; }
+.codicon-checklist:before { content: '\eab3'; }
+.codicon-chevron-down:before { content: '\eab4'; }
+.codicon-drop-down-button:before { content: '\eab4'; }
+.codicon-chevron-left:before { content: '\eab5'; }
+.codicon-chevron-right:before { content: '\eab6'; }
+.codicon-chevron-up:before { content: '\eab7'; }
+.codicon-chrome-close:before { content: '\eab8'; }
+.codicon-chrome-maximize:before { content: '\eab9'; }
+.codicon-chrome-minimize:before { content: '\eaba'; }
+.codicon-chrome-restore:before { content: '\eabb'; }
+.codicon-circle:before { content: '\eabc'; }
+.codicon-circle-outline:before { content: '\eabc'; }
+.codicon-debug-breakpoint-unverified:before { content: '\eabc'; }
+.codicon-circle-slash:before { content: '\eabd'; }
+.codicon-circuit-board:before { content: '\eabe'; }
+.codicon-clear-all:before { content: '\eabf'; }
+.codicon-clippy:before { content: '\eac0'; }
+.codicon-close-all:before { content: '\eac1'; }
+.codicon-cloud-download:before { content: '\eac2'; }
+.codicon-cloud-upload:before { content: '\eac3'; }
+.codicon-code:before { content: '\eac4'; }
+.codicon-collapse-all:before { content: '\eac5'; }
+.codicon-color-mode:before { content: '\eac6'; }
+.codicon-comment-discussion:before { content: '\eac7'; }
+.codicon-compare-changes:before { content: '\eafd'; }
+.codicon-credit-card:before { content: '\eac9'; }
+.codicon-dash:before { content: '\eacc'; }
+.codicon-dashboard:before { content: '\eacd'; }
+.codicon-database:before { content: '\eace'; }
+.codicon-debug-continue:before { content: '\eacf'; }
+.codicon-debug-disconnect:before { content: '\ead0'; }
+.codicon-debug-pause:before { content: '\ead1'; }
+.codicon-debug-restart:before { content: '\ead2'; }
+.codicon-debug-start:before { content: '\ead3'; }
+.codicon-debug-step-into:before { content: '\ead4'; }
+.codicon-debug-step-out:before { content: '\ead5'; }
+.codicon-debug-step-over:before { content: '\ead6'; }
+.codicon-debug-stop:before { content: '\ead7'; }
+.codicon-debug:before { content: '\ead8'; }
+.codicon-device-camera-video:before { content: '\ead9'; }
+.codicon-device-camera:before { content: '\eada'; }
+.codicon-device-mobile:before { content: '\eadb'; }
+.codicon-diff-added:before { content: '\eadc'; }
+.codicon-diff-ignored:before { content: '\eadd'; }
+.codicon-diff-modified:before { content: '\eade'; }
+.codicon-diff-removed:before { content: '\eadf'; }
+.codicon-diff-renamed:before { content: '\eae0'; }
+.codicon-diff:before { content: '\eae1'; }
+.codicon-discard:before { content: '\eae2'; }
+.codicon-editor-layout:before { content: '\eae3'; }
+.codicon-empty-window:before { content: '\eae4'; }
+.codicon-exclude:before { content: '\eae5'; }
+.codicon-extensions:before { content: '\eae6'; }
+.codicon-eye-closed:before { content: '\eae7'; }
+.codicon-file-binary:before { content: '\eae8'; }
+.codicon-file-code:before { content: '\eae9'; }
+.codicon-file-media:before { content: '\eaea'; }
+.codicon-file-pdf:before { content: '\eaeb'; }
+.codicon-file-submodule:before { content: '\eaec'; }
+.codicon-file-symlink-directory:before { content: '\eaed'; }
+.codicon-file-symlink-file:before { content: '\eaee'; }
+.codicon-file-zip:before { content: '\eaef'; }
+.codicon-files:before { content: '\eaf0'; }
+.codicon-filter:before { content: '\eaf1'; }
+.codicon-flame:before { content: '\eaf2'; }
+.codicon-fold-down:before { content: '\eaf3'; }
+.codicon-fold-up:before { content: '\eaf4'; }
+.codicon-fold:before { content: '\eaf5'; }
+.codicon-folder-active:before { content: '\eaf6'; }
+.codicon-folder-opened:before { content: '\eaf7'; }
+.codicon-gear:before { content: '\eaf8'; }
+.codicon-gift:before { content: '\eaf9'; }
+.codicon-gist-secret:before { content: '\eafa'; }
+.codicon-gist:before { content: '\eafb'; }
+.codicon-git-commit:before { content: '\eafc'; }
+.codicon-git-compare:before { content: '\eafd'; }
+.codicon-git-merge:before { content: '\eafe'; }
+.codicon-github-action:before { content: '\eaff'; }
+.codicon-github-alt:before { content: '\eb00'; }
+.codicon-globe:before { content: '\eb01'; }
+.codicon-grabber:before { content: '\eb02'; }
+.codicon-graph:before { content: '\eb03'; }
+.codicon-gripper:before { content: '\eb04'; }
+.codicon-heart:before { content: '\eb05'; }
+.codicon-home:before { content: '\eb06'; }
+.codicon-horizontal-rule:before { content: '\eb07'; }
+.codicon-hubot:before { content: '\eb08'; }
+.codicon-inbox:before { content: '\eb09'; }
+.codicon-issue-closed:before { content: '\eba4'; }
+.codicon-issue-reopened:before { content: '\eb0b'; }
+.codicon-issues:before { content: '\eb0c'; }
+.codicon-italic:before { content: '\eb0d'; }
+.codicon-jersey:before { content: '\eb0e'; }
+.codicon-json:before { content: '\eb0f'; }
+.codicon-bracket:before { content: '\eb0f'; }
+.codicon-kebab-vertical:before { content: '\eb10'; }
+.codicon-key:before { content: '\eb11'; }
+.codicon-law:before { content: '\eb12'; }
+.codicon-lightbulb-autofix:before { content: '\eb13'; }
+.codicon-link-external:before { content: '\eb14'; }
+.codicon-link:before { content: '\eb15'; }
+.codicon-list-ordered:before { content: '\eb16'; }
+.codicon-list-unordered:before { content: '\eb17'; }
+.codicon-live-share:before { content: '\eb18'; }
+.codicon-loading:before { content: '\eb19'; }
+.codicon-location:before { content: '\eb1a'; }
+.codicon-mail-read:before { content: '\eb1b'; }
+.codicon-mail:before { content: '\eb1c'; }
+.codicon-markdown:before { content: '\eb1d'; }
+.codicon-megaphone:before { content: '\eb1e'; }
+.codicon-mention:before { content: '\eb1f'; }
+.codicon-milestone:before { content: '\eb20'; }
+.codicon-git-pull-request-milestone:before { content: '\eb20'; }
+.codicon-mortar-board:before { content: '\eb21'; }
+.codicon-move:before { content: '\eb22'; }
+.codicon-multiple-windows:before { content: '\eb23'; }
+.codicon-mute:before { content: '\eb24'; }
+.codicon-no-newline:before { content: '\eb25'; }
+.codicon-note:before { content: '\eb26'; }
+.codicon-octoface:before { content: '\eb27'; }
+.codicon-open-preview:before { content: '\eb28'; }
+.codicon-package:before { content: '\eb29'; }
+.codicon-paintcan:before { content: '\eb2a'; }
+.codicon-pin:before { content: '\eb2b'; }
+.codicon-play:before { content: '\eb2c'; }
+.codicon-run:before { content: '\eb2c'; }
+.codicon-plug:before { content: '\eb2d'; }
+.codicon-preserve-case:before { content: '\eb2e'; }
+.codicon-preview:before { content: '\eb2f'; }
+.codicon-project:before { content: '\eb30'; }
+.codicon-pulse:before { content: '\eb31'; }
+.codicon-question:before { content: '\eb32'; }
+.codicon-quote:before { content: '\eb33'; }
+.codicon-radio-tower:before { content: '\eb34'; }
+.codicon-reactions:before { content: '\eb35'; }
+.codicon-references:before { content: '\eb36'; }
+.codicon-refresh:before { content: '\eb37'; }
+.codicon-regex:before { content: '\eb38'; }
+.codicon-remote-explorer:before { content: '\eb39'; }
+.codicon-remote:before { content: '\eb3a'; }
+.codicon-remove:before { content: '\eb3b'; }
+.codicon-replace-all:before { content: '\eb3c'; }
+.codicon-replace:before { content: '\eb3d'; }
+.codicon-repo-clone:before { content: '\eb3e'; }
+.codicon-repo-force-push:before { content: '\eb3f'; }
+.codicon-repo-pull:before { content: '\eb40'; }
+.codicon-repo-push:before { content: '\eb41'; }
+.codicon-report:before { content: '\eb42'; }
+.codicon-request-changes:before { content: '\eb43'; }
+.codicon-rocket:before { content: '\eb44'; }
+.codicon-root-folder-opened:before { content: '\eb45'; }
+.codicon-root-folder:before { content: '\eb46'; }
+.codicon-rss:before { content: '\eb47'; }
+.codicon-ruby:before { content: '\eb48'; }
+.codicon-save-all:before { content: '\eb49'; }
+.codicon-save-as:before { content: '\eb4a'; }
+.codicon-save:before { content: '\eb4b'; }
+.codicon-screen-full:before { content: '\eb4c'; }
+.codicon-screen-normal:before { content: '\eb4d'; }
+.codicon-search-stop:before { content: '\eb4e'; }
+.codicon-server:before { content: '\eb50'; }
+.codicon-settings-gear:before { content: '\eb51'; }
+.codicon-settings:before { content: '\eb52'; }
+.codicon-shield:before { content: '\eb53'; }
+.codicon-smiley:before { content: '\eb54'; }
+.codicon-sort-precedence:before { content: '\eb55'; }
+.codicon-split-horizontal:before { content: '\eb56'; }
+.codicon-split-vertical:before { content: '\eb57'; }
+.codicon-squirrel:before { content: '\eb58'; }
+.codicon-star-full:before { content: '\eb59'; }
+.codicon-star-half:before { content: '\eb5a'; }
+.codicon-symbol-class:before { content: '\eb5b'; }
+.codicon-symbol-color:before { content: '\eb5c'; }
+.codicon-symbol-customcolor:before { content: '\eb5c'; }
+.codicon-symbol-constant:before { content: '\eb5d'; }
+.codicon-symbol-enum-member:before { content: '\eb5e'; }
+.codicon-symbol-field:before { content: '\eb5f'; }
+.codicon-symbol-file:before { content: '\eb60'; }
+.codicon-symbol-interface:before { content: '\eb61'; }
+.codicon-symbol-keyword:before { content: '\eb62'; }
+.codicon-symbol-misc:before { content: '\eb63'; }
+.codicon-symbol-operator:before { content: '\eb64'; }
+.codicon-symbol-property:before { content: '\eb65'; }
+.codicon-wrench:before { content: '\eb65'; }
+.codicon-wrench-subaction:before { content: '\eb65'; }
+.codicon-symbol-snippet:before { content: '\eb66'; }
+.codicon-tasklist:before { content: '\eb67'; }
+.codicon-telescope:before { content: '\eb68'; }
+.codicon-text-size:before { content: '\eb69'; }
+.codicon-three-bars:before { content: '\eb6a'; }
+.codicon-thumbsdown:before { content: '\eb6b'; }
+.codicon-thumbsup:before { content: '\eb6c'; }
+.codicon-tools:before { content: '\eb6d'; }
+.codicon-triangle-down:before { content: '\eb6e'; }
+.codicon-triangle-left:before { content: '\eb6f'; }
+.codicon-triangle-right:before { content: '\eb70'; }
+.codicon-triangle-up:before { content: '\eb71'; }
+.codicon-twitter:before { content: '\eb72'; }
+.codicon-unfold:before { content: '\eb73'; }
+.codicon-unlock:before { content: '\eb74'; }
+.codicon-unmute:before { content: '\eb75'; }
+.codicon-unverified:before { content: '\eb76'; }
+.codicon-verified:before { content: '\eb77'; }
+.codicon-versions:before { content: '\eb78'; }
+.codicon-vm-active:before { content: '\eb79'; }
+.codicon-vm-outline:before { content: '\eb7a'; }
+.codicon-vm-running:before { content: '\eb7b'; }
+.codicon-watch:before { content: '\eb7c'; }
+.codicon-whitespace:before { content: '\eb7d'; }
+.codicon-whole-word:before { content: '\eb7e'; }
+.codicon-window:before { content: '\eb7f'; }
+.codicon-word-wrap:before { content: '\eb80'; }
+.codicon-zoom-in:before { content: '\eb81'; }
+.codicon-zoom-out:before { content: '\eb82'; }
+.codicon-list-filter:before { content: '\eb83'; }
+.codicon-list-flat:before { content: '\eb84'; }
+.codicon-list-selection:before { content: '\eb85'; }
+.codicon-selection:before { content: '\eb85'; }
+.codicon-list-tree:before { content: '\eb86'; }
+.codicon-debug-breakpoint-function-unverified:before { content: '\eb87'; }
+.codicon-debug-breakpoint-function:before { content: '\eb88'; }
+.codicon-debug-breakpoint-function-disabled:before { content: '\eb88'; }
+.codicon-debug-stackframe-active:before { content: '\eb89'; }
+.codicon-circle-small-filled:before { content: '\eb8a'; }
+.codicon-debug-stackframe-dot:before { content: '\eb8a'; }
+.codicon-debug-stackframe:before { content: '\eb8b'; }
+.codicon-debug-stackframe-focused:before { content: '\eb8b'; }
+.codicon-debug-breakpoint-unsupported:before { content: '\eb8c'; }
+.codicon-symbol-string:before { content: '\eb8d'; }
+.codicon-debug-reverse-continue:before { content: '\eb8e'; }
+.codicon-debug-step-back:before { content: '\eb8f'; }
+.codicon-debug-restart-frame:before { content: '\eb90'; }
+.codicon-call-incoming:before { content: '\eb92'; }
+.codicon-call-outgoing:before { content: '\eb93'; }
+.codicon-menu:before { content: '\eb94'; }
+.codicon-expand-all:before { content: '\eb95'; }
+.codicon-feedback:before { content: '\eb96'; }
+.codicon-git-pull-request-reviewer:before { content: '\eb96'; }
+.codicon-group-by-ref-type:before { content: '\eb97'; }
+.codicon-ungroup-by-ref-type:before { content: '\eb98'; }
+.codicon-account:before { content: '\eb99'; }
+.codicon-git-pull-request-assignee:before { content: '\eb99'; }
+.codicon-bell-dot:before { content: '\eb9a'; }
+.codicon-debug-console:before { content: '\eb9b'; }
+.codicon-library:before { content: '\eb9c'; }
+.codicon-output:before { content: '\eb9d'; }
+.codicon-run-all:before { content: '\eb9e'; }
+.codicon-sync-ignored:before { content: '\eb9f'; }
+.codicon-pinned:before { content: '\eba0'; }
+.codicon-github-inverted:before { content: '\eba1'; }
+.codicon-debug-alt:before { content: '\eb91'; }
+.codicon-server-process:before { content: '\eba2'; }
+.codicon-server-environment:before { content: '\eba3'; }
+.codicon-pass:before { content: '\eba4'; }
+.codicon-stop-circle:before { content: '\eba5'; }
+.codicon-play-circle:before { content: '\eba6'; }
+.codicon-record:before { content: '\eba7'; }
+.codicon-debug-alt-small:before { content: '\eba8'; }
+.codicon-vm-connect:before { content: '\eba9'; }
+.codicon-cloud:before { content: '\ebaa'; }
+.codicon-merge:before { content: '\ebab'; }
+.codicon-export:before { content: '\ebac'; }
+.codicon-graph-left:before { content: '\ebad'; }
+.codicon-magnet:before { content: '\ebae'; }
+.codicon-notebook:before { content: '\ebaf'; }
+.codicon-redo:before { content: '\ebb0'; }
+.codicon-check-all:before { content: '\ebb1'; }
+.codicon-pinned-dirty:before { content: '\ebb2'; }
+.codicon-pass-filled:before { content: '\ebb3'; }
+.codicon-circle-large-filled:before { content: '\ebb4'; }
+.codicon-circle-large:before { content: '\ebb5'; }
+.codicon-circle-large-outline:before { content: '\ebb5'; }
+.codicon-combine:before { content: '\ebb6'; }
+.codicon-gather:before { content: '\ebb6'; }
+.codicon-table:before { content: '\ebb7'; }
+.codicon-variable-group:before { content: '\ebb8'; }
+.codicon-type-hierarchy:before { content: '\ebb9'; }
+.codicon-type-hierarchy-sub:before { content: '\ebba'; }
+.codicon-type-hierarchy-super:before { content: '\ebbb'; }
+.codicon-git-pull-request-create:before { content: '\ebbc'; }
+.codicon-run-above:before { content: '\ebbd'; }
+.codicon-run-below:before { content: '\ebbe'; }
+.codicon-notebook-template:before { content: '\ebbf'; }
+.codicon-debug-rerun:before { content: '\ebc0'; }
+.codicon-workspace-trusted:before { content: '\ebc1'; }
+.codicon-workspace-untrusted:before { content: '\ebc2'; }
+.codicon-workspace-unspecified:before { content: '\ebc3'; }
+.codicon-terminal-cmd:before { content: '\ebc4'; }
+.codicon-terminal-debian:before { content: '\ebc5'; }
+.codicon-terminal-linux:before { content: '\ebc6'; }
+.codicon-terminal-powershell:before { content: '\ebc7'; }
+.codicon-terminal-tmux:before { content: '\ebc8'; }
+.codicon-terminal-ubuntu:before { content: '\ebc9'; }
+.codicon-terminal-bash:before { content: '\ebca'; }
+.codicon-arrow-swap:before { content: '\ebcb'; }
+.codicon-copy:before { content: '\ebcc'; }
+.codicon-person-add:before { content: '\ebcd'; }
+.codicon-filter-filled:before { content: '\ebce'; }
+.codicon-wand:before { content: '\ebcf'; }
+.codicon-debug-line-by-line:before { content: '\ebd0'; }
+.codicon-inspect:before { content: '\ebd1'; }
+.codicon-layers:before { content: '\ebd2'; }
+.codicon-layers-dot:before { content: '\ebd3'; }
+.codicon-layers-active:before { content: '\ebd4'; }
+.codicon-compass:before { content: '\ebd5'; }
+.codicon-compass-dot:before { content: '\ebd6'; }
+.codicon-compass-active:before { content: '\ebd7'; }
+.codicon-azure:before { content: '\ebd8'; }
+.codicon-issue-draft:before { content: '\ebd9'; }
+.codicon-git-pull-request-closed:before { content: '\ebda'; }
+.codicon-git-pull-request-draft:before { content: '\ebdb'; }
+.codicon-debug-all:before { content: '\ebdc'; }
+.codicon-debug-coverage:before { content: '\ebdd'; }
+.codicon-run-errors:before { content: '\ebde'; }
+.codicon-folder-library:before { content: '\ebdf'; }
+.codicon-debug-continue-small:before { content: '\ebe0'; }
+.codicon-beaker-stop:before { content: '\ebe1'; }
+.codicon-graph-line:before { content: '\ebe2'; }
+.codicon-graph-scatter:before { content: '\ebe3'; }
+.codicon-pie-chart:before { content: '\ebe4'; }
+.codicon-bracket-dot:before { content: '\ebe5'; }
+.codicon-bracket-error:before { content: '\ebe6'; }
+.codicon-lock-small:before { content: '\ebe7'; }
+.codicon-azure-devops:before { content: '\ebe8'; }
+.codicon-verified-filled:before { content: '\ebe9'; }
+.codicon-newline:before { content: '\ebea'; }
+.codicon-layout:before { content: '\ebeb'; }
+.codicon-layout-activitybar-left:before { content: '\ebec'; }
+.codicon-layout-activitybar-right:before { content: '\ebed'; }
+.codicon-layout-panel-left:before { content: '\ebee'; }
+.codicon-layout-panel-center:before { content: '\ebef'; }
+.codicon-layout-panel-justify:before { content: '\ebf0'; }
+.codicon-layout-panel-right:before { content: '\ebf1'; }
+.codicon-layout-panel:before { content: '\ebf2'; }
+.codicon-layout-sidebar-left:before { content: '\ebf3'; }
+.codicon-layout-sidebar-right:before { content: '\ebf4'; }
+.codicon-layout-statusbar:before { content: '\ebf5'; }
+.codicon-layout-menubar:before { content: '\ebf6'; }
+.codicon-layout-centered:before { content: '\ebf7'; }
+.codicon-layout-sidebar-right-off:before { content: '\ec00'; }
+.codicon-layout-panel-off:before { content: '\ec01'; }
+.codicon-layout-sidebar-left-off:before { content: '\ec02'; }
+.codicon-target:before { content: '\ebf8'; }
+.codicon-indent:before { content: '\ebf9'; }
+.codicon-record-small:before { content: '\ebfa'; }
+.codicon-error-small:before { content: '\ebfb'; }
+.codicon-arrow-circle-down:before { content: '\ebfc'; }
+.codicon-arrow-circle-left:before { content: '\ebfd'; }
+.codicon-arrow-circle-right:before { content: '\ebfe'; }
+.codicon-arrow-circle-up:before { content: '\ebff'; }
+.codicon-heart-filled:before { content: '\ec04'; }
+.codicon-map:before { content: '\ec05'; }
+.codicon-map-filled:before { content: '\ec06'; }
+.codicon-circle-small:before { content: '\ec07'; }
+.codicon-bell-slash:before { content: '\ec08'; }
+.codicon-bell-slash-dot:before { content: '\ec09'; }
+.codicon-comment-unresolved:before { content: '\ec0a'; }
+.codicon-git-pull-request-go-to-changes:before { content: '\ec0b'; }
+.codicon-git-pull-request-new-changes:before { content: '\ec0c'; }
+.codicon-search-fuzzy:before { content: '\ec0d'; }
+.codicon-comment-draft:before { content: '\ec0e'; }
+.codicon-send:before { content: '\ec0f'; }
+.codicon-sparkle:before { content: '\ec10'; }
+.codicon-insert:before { content: '\ec11'; }
+.codicon-mic:before { content: '\ec12'; }
+.codicon-dialog-error:before { content: '\ea87'; }
+.codicon-dialog-warning:before { content: '\ea6c'; }
+.codicon-dialog-info:before { content: '\ea74'; }
+.codicon-dialog-close:before { content: '\ea76'; }
+.codicon-tree-item-expanded:before { content: '\eab4'; }
+.codicon-tree-filter-on-type-on:before { content: '\eb83'; }
+.codicon-tree-filter-on-type-off:before { content: '\eb85'; }
+.codicon-tree-filter-clear:before { content: '\ea76'; }
+.codicon-tree-item-loading:before { content: '\eb19'; }
+.codicon-menu-selection:before { content: '\eab2'; }
+.codicon-menu-submenu:before { content: '\eab6'; }
+.codicon-menubar-more:before { content: '\ea7c'; }
+.codicon-scrollbar-button-left:before { content: '\eb6f'; }
+.codicon-scrollbar-button-right:before { content: '\eb70'; }
+.codicon-scrollbar-button-up:before { content: '\eb71'; }
+.codicon-scrollbar-button-down:before { content: '\eb6e'; }
+.codicon-toolbar-more:before { content: '\ea7c'; }
+.codicon-quick-input-back:before { content: '\ea9b'; }
+.codicon-widget-close:before { content: '\ea76'; }
+.codicon-goto-previous-location:before { content: '\eaa1'; }
+.codicon-goto-next-location:before { content: '\ea9a'; }
+.codicon-diff-review-insert:before { content: '\ea60'; }
+.codicon-diff-review-remove:before { content: '\eb3b'; }
+.codicon-diff-review-close:before { content: '\ea76'; }
+.codicon-parameter-hints-next:before { content: '\eab4'; }
+.codicon-parameter-hints-previous:before { content: '\eab7'; }
+.codicon-suggest-more-info:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-next:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-previous:before { content: '\eab5'; }
+.codicon-diff-insert:before { content: '\ea60'; }
+.codicon-diff-remove:before { content: '\eb3b'; }
+.codicon-find-selection:before { content: '\eb85'; }
+.codicon-find-collapsed:before { content: '\eab6'; }
+.codicon-find-expanded:before { content: '\eab4'; }
+.codicon-find-replace:before { content: '\eb3d'; }
+.codicon-find-replace-all:before { content: '\eb3c'; }
+.codicon-find-previous-match:before { content: '\eaa1'; }
+.codicon-find-next-match:before { content: '\ea9a'; }
+.codicon-folding-expanded:before { content: '\eab4'; }
+.codicon-folding-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-expanded:before { content: '\eab4'; }
+.codicon-marker-navigation-next:before { content: '\ea9a'; }
+.codicon-marker-navigation-previous:before { content: '\eaa1'; }
+.codicon-extensions-warning-message:before { content: '\ea6c'; }
+.monaco-editor .inputarea.ime-input { background-color: #1e1e1e; }
+.monaco-editor .view-overlays .current-line { border: 2px solid #282828; }
+.monaco-editor .margin-view-overlays .current-line-margin { border: 2px solid #282828; }
+.monaco-editor .bracket-indent-guide.lvl-0 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-1 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-2 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-3 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-4 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-5 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-6 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-7 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-8 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-9 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-10 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-11 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-12 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-13 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-14 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-15 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-16 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-17 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-18 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-19 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-20 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-21 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-22 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-23 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-24 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-25 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-26 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-27 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-28 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-29 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .vertical { box-shadow: 1px 0 0 0 var(--guide-color) inset; }
+.monaco-editor .horizontal-top { border-top: 1px solid var(--guide-color); }
+.monaco-editor .horizontal-bottom { border-bottom: 1px solid var(--guide-color); }
+.monaco-editor .vertical.indent-active { box-shadow: 1px 0 0 0 var(--guide-color-active) inset; }
+.monaco-editor .horizontal-top.indent-active { border-top: 1px solid var(--guide-color-active); }
+.monaco-editor .horizontal-bottom.indent-active { border-bottom: 1px solid var(--guide-color-active); }
+.monaco-editor .lines-content .core-guide-indent.lvl-0 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-1 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-2 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-3 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-4 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-5 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-6 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-7 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-8 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-9 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-10 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-11 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-12 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-13 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-14 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-15 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-16 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-17 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-18 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-19 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-20 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-21 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-22 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-23 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-24 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-25 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-26 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-27 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-28 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent.lvl-29 { --indent-color: #404040; --indent-color-active: #707070; }
+.monaco-editor .lines-content .core-guide-indent { box-shadow: 1px 0 0 0 var(--indent-color) inset; }
+.monaco-editor .lines-content .core-guide-indent.indent-active { box-shadow: 1px 0 0 0 var(--indent-color-active) inset; }
+.monaco-editor .line-numbers.dimmed-line-number { color: rgba(133, 133, 133, 0.4); }
+.monaco-editor .cursors-layer .cursor { background-color: #aeafad; border-color: #aeafad; color: #515052; }
+.monaco-editor .unexpected-closing-bracket { color: rgba(255, 18, 18, 0.8); }
+.monaco-editor .bracket-highlighting-0 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-1 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-2 { color: #179fff; }
+.monaco-editor .bracket-highlighting-3 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-4 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-5 { color: #179fff; }
+.monaco-editor .bracket-highlighting-6 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-7 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-8 { color: #179fff; }
+.monaco-editor .bracket-highlighting-9 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-10 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-11 { color: #179fff; }
+.monaco-editor .bracket-highlighting-12 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-13 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-14 { color: #179fff; }
+.monaco-editor .bracket-highlighting-15 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-16 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-17 { color: #179fff; }
+.monaco-editor .bracket-highlighting-18 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-19 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-20 { color: #179fff; }
+.monaco-editor .bracket-highlighting-21 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-22 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-23 { color: #179fff; }
+.monaco-editor .bracket-highlighting-24 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-25 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-26 { color: #179fff; }
+.monaco-editor .bracket-highlighting-27 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-28 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-29 { color: #179fff; }
+.monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23f14c4c'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23cca700'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%233794ff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22rgba(238%2C%20238%2C%20238%2C%200.7)%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+.monaco-editor.showUnused .squiggly-inline-unnecessary { opacity: 0.667; }
+.monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.07); }
+
+	.monaco-editor .diagonal-fill {
+		background-image: linear-gradient(
+			-45deg,
+			rgba(204, 204, 204, 0.2) 12.5%,
+			#0000 12.5%, #0000 50%,
+			rgba(204, 204, 204, 0.2) 50%, rgba(204, 204, 204, 0.2) 62.5%,
+			#0000 62.5%, #0000 100%
+		);
+		background-size: 8px 8px;
+	}
+	
+.monaco-editor .findMatch { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .currentFindMatch { background-color: #515c6a; }
+.monaco-editor .findScope { background-color: rgba(58, 61, 65, 0.4); }
+.monaco-editor .find-widget { background-color: #252526; }
+.monaco-editor .find-widget { box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.36); }
+.monaco-editor .find-widget { color: #cccccc; }
+.monaco-editor .find-widget.no-results .matchesCount { color: #f48771; }
+.monaco-editor .find-widget .monaco-sash { background-color: #454545; }
+
+		.monaco-editor .find-widget .button:not(.disabled):hover,
+		.monaco-editor .find-widget .codicon-find-selection:hover {
+			background-color: rgba(90, 93, 94, 0.31) !important;
+		}
+	
+.monaco-editor .find-widget .monaco-inputbox.synthetic-focus { outline-color: #007fd4; }
+.monaco-editor .monaco-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-bottom: 0px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor, .monaco-diff-editor { --vscode-foreground: #cccccc;
+--vscode-disabledForeground: rgba(204, 204, 204, 0.5);
+--vscode-errorForeground: #f48771;
+--vscode-descriptionForeground: rgba(204, 204, 204, 0.7);
+--vscode-icon-foreground: #c5c5c5;
+--vscode-focusBorder: #007fd4;
+--vscode-textSeparator-foreground: rgba(255, 255, 255, 0.18);
+--vscode-textLink-foreground: #3794ff;
+--vscode-textLink-activeForeground: #3794ff;
+--vscode-textPreformat-foreground: #d7ba7d;
+--vscode-textBlockQuote-background: rgba(127, 127, 127, 0.1);
+--vscode-textBlockQuote-border: rgba(0, 122, 204, 0.5);
+--vscode-textCodeBlock-background: rgba(10, 10, 10, 0.4);
+--vscode-widget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-input-background: #3c3c3c;
+--vscode-input-foreground: #cccccc;
+--vscode-inputOption-activeBorder: #007acc;
+--vscode-inputOption-hoverBackground: rgba(90, 93, 94, 0.5);
+--vscode-inputOption-activeBackground: rgba(0, 127, 212, 0.4);
+--vscode-inputOption-activeForeground: #ffffff;
+--vscode-input-placeholderForeground: rgba(204, 204, 204, 0.5);
+--vscode-inputValidation-infoBackground: #063b49;
+--vscode-inputValidation-infoBorder: #007acc;
+--vscode-inputValidation-warningBackground: #352a05;
+--vscode-inputValidation-warningBorder: #b89500;
+--vscode-inputValidation-errorBackground: #5a1d1d;
+--vscode-inputValidation-errorBorder: #be1100;
+--vscode-dropdown-background: #3c3c3c;
+--vscode-dropdown-foreground: #f0f0f0;
+--vscode-dropdown-border: #3c3c3c;
+--vscode-button-foreground: #ffffff;
+--vscode-button-separator: rgba(255, 255, 255, 0.4);
+--vscode-button-background: #0e639c;
+--vscode-button-hoverBackground: #1177bb;
+--vscode-button-secondaryForeground: #ffffff;
+--vscode-button-secondaryBackground: #3a3d41;
+--vscode-button-secondaryHoverBackground: #45494e;
+--vscode-badge-background: #4d4d4d;
+--vscode-badge-foreground: #ffffff;
+--vscode-scrollbar-shadow: #000000;
+--vscode-scrollbarSlider-background: rgba(121, 121, 121, 0.4);
+--vscode-scrollbarSlider-hoverBackground: rgba(100, 100, 100, 0.7);
+--vscode-scrollbarSlider-activeBackground: rgba(191, 191, 191, 0.4);
+--vscode-progressBar-background: #0e70c0;
+--vscode-editorError-foreground: #f14c4c;
+--vscode-editorWarning-foreground: #cca700;
+--vscode-editorInfo-foreground: #3794ff;
+--vscode-editorHint-foreground: rgba(238, 238, 238, 0.7);
+--vscode-sash-hoverBorder: #007fd4;
+--vscode-editor-background: #1e1e1e;
+--vscode-editor-foreground: #d4d4d4;
+--vscode-editorStickyScroll-background: #1e1e1e;
+--vscode-editorStickyScrollHover-background: #2a2d2e;
+--vscode-editorWidget-background: #252526;
+--vscode-editorWidget-foreground: #cccccc;
+--vscode-editorWidget-border: #454545;
+--vscode-quickInput-background: #252526;
+--vscode-quickInput-foreground: #cccccc;
+--vscode-quickInputTitle-background: rgba(255, 255, 255, 0.1);
+--vscode-pickerGroup-foreground: #3794ff;
+--vscode-pickerGroup-border: #3f3f46;
+--vscode-keybindingLabel-background: rgba(128, 128, 128, 0.17);
+--vscode-keybindingLabel-foreground: #cccccc;
+--vscode-keybindingLabel-border: rgba(51, 51, 51, 0.6);
+--vscode-keybindingLabel-bottomBorder: rgba(68, 68, 68, 0.6);
+--vscode-editor-selectionBackground: #264f78;
+--vscode-editor-inactiveSelectionBackground: #3a3d41;
+--vscode-editor-selectionHighlightBackground: rgba(173, 214, 255, 0.15);
+--vscode-editor-findMatchBackground: #515c6a;
+--vscode-editor-findMatchHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editor-findRangeHighlightBackground: rgba(58, 61, 65, 0.4);
+--vscode-searchEditor-findMatchBackground: rgba(234, 92, 0, 0.22);
+--vscode-search-resultsInfoForeground: rgba(204, 204, 204, 0.65);
+--vscode-editor-hoverHighlightBackground: rgba(38, 79, 120, 0.25);
+--vscode-editorHoverWidget-background: #252526;
+--vscode-editorHoverWidget-foreground: #cccccc;
+--vscode-editorHoverWidget-border: #454545;
+--vscode-editorHoverWidget-statusBarBackground: #2c2c2d;
+--vscode-editorLink-activeForeground: #4e94ce;
+--vscode-editorInlayHint-foreground: #969696;
+--vscode-editorInlayHint-background: rgba(77, 77, 77, 0.1);
+--vscode-editorInlayHint-typeForeground: #969696;
+--vscode-editorInlayHint-typeBackground: rgba(77, 77, 77, 0.1);
+--vscode-editorInlayHint-parameterForeground: #969696;
+--vscode-editorInlayHint-parameterBackground: rgba(77, 77, 77, 0.1);
+--vscode-editorLightBulb-foreground: #ffcc00;
+--vscode-editorLightBulbAutoFix-foreground: #75beff;
+--vscode-diffEditor-insertedTextBackground: rgba(156, 204, 44, 0.2);
+--vscode-diffEditor-removedTextBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-insertedLineBackground: rgba(155, 185, 85, 0.2);
+--vscode-diffEditor-removedLineBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-diagonalFill: rgba(204, 204, 204, 0.2);
+--vscode-diffEditor-unchangedRegionBackground: #3e3e3e;
+--vscode-diffEditor-unchangedRegionForeground: #a3a2a2;
+--vscode-diffEditor-unchangedCodeBackground: rgba(116, 116, 116, 0.16);
+--vscode-list-focusOutline: #007fd4;
+--vscode-list-activeSelectionBackground: #04395e;
+--vscode-list-activeSelectionForeground: #ffffff;
+--vscode-list-inactiveSelectionBackground: #37373d;
+--vscode-list-hoverBackground: #2a2d2e;
+--vscode-list-dropBackground: #062f4a;
+--vscode-list-highlightForeground: #2aaaff;
+--vscode-list-focusHighlightForeground: #2aaaff;
+--vscode-list-invalidItemForeground: #b89500;
+--vscode-list-errorForeground: #f88070;
+--vscode-list-warningForeground: #cca700;
+--vscode-listFilterWidget-background: #252526;
+--vscode-listFilterWidget-outline: rgba(0, 0, 0, 0);
+--vscode-listFilterWidget-noMatchesOutline: #be1100;
+--vscode-listFilterWidget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-list-filterMatchBackground: rgba(234, 92, 0, 0.33);
+--vscode-tree-indentGuidesStroke: #585858;
+--vscode-tree-inactiveIndentGuidesStroke: rgba(88, 88, 88, 0.4);
+--vscode-tree-tableColumnsBorder: rgba(204, 204, 204, 0.13);
+--vscode-tree-tableOddRowsBackground: rgba(204, 204, 204, 0.04);
+--vscode-list-deemphasizedForeground: #8c8c8c;
+--vscode-checkbox-background: #3c3c3c;
+--vscode-checkbox-selectBackground: #252526;
+--vscode-checkbox-foreground: #f0f0f0;
+--vscode-checkbox-border: #3c3c3c;
+--vscode-checkbox-selectBorder: #c5c5c5;
+--vscode-quickInputList-focusForeground: #ffffff;
+--vscode-quickInputList-focusBackground: #04395e;
+--vscode-menu-foreground: #f0f0f0;
+--vscode-menu-background: #3c3c3c;
+--vscode-menu-selectionForeground: #ffffff;
+--vscode-menu-selectionBackground: #04395e;
+--vscode-menu-separatorBackground: #606060;
+--vscode-toolbar-hoverBackground: rgba(90, 93, 94, 0.31);
+--vscode-toolbar-activeBackground: rgba(99, 102, 103, 0.31);
+--vscode-editor-snippetTabstopHighlightBackground: rgba(124, 124, 124, 0.3);
+--vscode-editor-snippetFinalTabstopHighlightBorder: #525252;
+--vscode-breadcrumb-foreground: rgba(204, 204, 204, 0.8);
+--vscode-breadcrumb-background: #1e1e1e;
+--vscode-breadcrumb-focusForeground: #e0e0e0;
+--vscode-breadcrumb-activeSelectionForeground: #e0e0e0;
+--vscode-breadcrumbPicker-background: #252526;
+--vscode-merge-currentHeaderBackground: rgba(64, 200, 174, 0.5);
+--vscode-merge-currentContentBackground: rgba(64, 200, 174, 0.2);
+--vscode-merge-incomingHeaderBackground: rgba(64, 166, 255, 0.5);
+--vscode-merge-incomingContentBackground: rgba(64, 166, 255, 0.2);
+--vscode-merge-commonHeaderBackground: rgba(96, 96, 96, 0.4);
+--vscode-merge-commonContentBackground: rgba(96, 96, 96, 0.16);
+--vscode-editorOverviewRuler-currentContentForeground: rgba(64, 200, 174, 0.5);
+--vscode-editorOverviewRuler-incomingContentForeground: rgba(64, 166, 255, 0.5);
+--vscode-editorOverviewRuler-commonContentForeground: rgba(96, 96, 96, 0.4);
+--vscode-editorOverviewRuler-findMatchForeground: rgba(209, 134, 22, 0.49);
+--vscode-editorOverviewRuler-selectionHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-minimap-findMatchHighlight: #d18616;
+--vscode-minimap-selectionOccurrenceHighlight: #676767;
+--vscode-minimap-selectionHighlight: #264f78;
+--vscode-minimap-errorHighlight: rgba(255, 18, 18, 0.7);
+--vscode-minimap-warningHighlight: #cca700;
+--vscode-minimap-foregroundOpacity: #000000;
+--vscode-minimapSlider-background: rgba(121, 121, 121, 0.2);
+--vscode-minimapSlider-hoverBackground: rgba(100, 100, 100, 0.35);
+--vscode-minimapSlider-activeBackground: rgba(191, 191, 191, 0.2);
+--vscode-problemsErrorIcon-foreground: #f14c4c;
+--vscode-problemsWarningIcon-foreground: #cca700;
+--vscode-problemsInfoIcon-foreground: #3794ff;
+--vscode-charts-foreground: #cccccc;
+--vscode-charts-lines: rgba(204, 204, 204, 0.5);
+--vscode-charts-red: #f14c4c;
+--vscode-charts-blue: #3794ff;
+--vscode-charts-yellow: #cca700;
+--vscode-charts-orange: #d18616;
+--vscode-charts-green: #89d185;
+--vscode-charts-purple: #b180d7;
+--vscode-diffEditor-move-border: rgba(139, 139, 139, 0.61);
+--vscode-diffEditor-moveActive-border: #ffa500;
+--vscode-symbolIcon-arrayForeground: #cccccc;
+--vscode-symbolIcon-booleanForeground: #cccccc;
+--vscode-symbolIcon-classForeground: #ee9d28;
+--vscode-symbolIcon-colorForeground: #cccccc;
+--vscode-symbolIcon-constantForeground: #cccccc;
+--vscode-symbolIcon-constructorForeground: #b180d7;
+--vscode-symbolIcon-enumeratorForeground: #ee9d28;
+--vscode-symbolIcon-enumeratorMemberForeground: #75beff;
+--vscode-symbolIcon-eventForeground: #ee9d28;
+--vscode-symbolIcon-fieldForeground: #75beff;
+--vscode-symbolIcon-fileForeground: #cccccc;
+--vscode-symbolIcon-folderForeground: #cccccc;
+--vscode-symbolIcon-functionForeground: #b180d7;
+--vscode-symbolIcon-interfaceForeground: #75beff;
+--vscode-symbolIcon-keyForeground: #cccccc;
+--vscode-symbolIcon-keywordForeground: #cccccc;
+--vscode-symbolIcon-methodForeground: #b180d7;
+--vscode-symbolIcon-moduleForeground: #cccccc;
+--vscode-symbolIcon-namespaceForeground: #cccccc;
+--vscode-symbolIcon-nullForeground: #cccccc;
+--vscode-symbolIcon-numberForeground: #cccccc;
+--vscode-symbolIcon-objectForeground: #cccccc;
+--vscode-symbolIcon-operatorForeground: #cccccc;
+--vscode-symbolIcon-packageForeground: #cccccc;
+--vscode-symbolIcon-propertyForeground: #cccccc;
+--vscode-symbolIcon-referenceForeground: #cccccc;
+--vscode-symbolIcon-snippetForeground: #cccccc;
+--vscode-symbolIcon-stringForeground: #cccccc;
+--vscode-symbolIcon-structForeground: #cccccc;
+--vscode-symbolIcon-textForeground: #cccccc;
+--vscode-symbolIcon-typeParameterForeground: #cccccc;
+--vscode-symbolIcon-unitForeground: #cccccc;
+--vscode-symbolIcon-variableForeground: #75beff;
+--vscode-actionBar-toggledBackground: rgba(0, 127, 212, 0.4);
+--vscode-editor-lineHighlightBorder: #282828;
+--vscode-editor-rangeHighlightBackground: rgba(255, 255, 255, 0.04);
+--vscode-editor-symbolHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editorCursor-foreground: #aeafad;
+--vscode-editorWhitespace-foreground: rgba(227, 228, 226, 0.16);
+--vscode-editorLineNumber-foreground: #858585;
+--vscode-editorIndentGuide-background: rgba(227, 228, 226, 0.16);
+--vscode-editorIndentGuide-activeBackground: rgba(227, 228, 226, 0.16);
+--vscode-editorIndentGuide-background1: #404040;
+--vscode-editorIndentGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground1: #707070;
+--vscode-editorIndentGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorIndentGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorActiveLineNumber-foreground: #c6c6c6;
+--vscode-editorLineNumber-activeForeground: #c6c6c6;
+--vscode-editorRuler-foreground: #5a5a5a;
+--vscode-editorCodeLens-foreground: #999999;
+--vscode-editorBracketMatch-background: rgba(0, 100, 0, 0.1);
+--vscode-editorBracketMatch-border: #888888;
+--vscode-editorOverviewRuler-border: rgba(127, 127, 127, 0.3);
+--vscode-editorGutter-background: #1e1e1e;
+--vscode-editorUnnecessaryCode-opacity: rgba(0, 0, 0, 0.67);
+--vscode-editorGhostText-foreground: rgba(255, 255, 255, 0.34);
+--vscode-editorOverviewRuler-rangeHighlightForeground: rgba(0, 122, 204, 0.6);
+--vscode-editorOverviewRuler-errorForeground: rgba(255, 18, 18, 0.7);
+--vscode-editorOverviewRuler-warningForeground: #cca700;
+--vscode-editorOverviewRuler-infoForeground: #3794ff;
+--vscode-editorBracketHighlight-foreground1: #ffd700;
+--vscode-editorBracketHighlight-foreground2: #da70d6;
+--vscode-editorBracketHighlight-foreground3: #179fff;
+--vscode-editorBracketHighlight-foreground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground6: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-unexpectedBracket-foreground: rgba(255, 18, 18, 0.8);
+--vscode-editorBracketPairGuide-background1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorUnicodeHighlight-border: #bd9b03;
+--vscode-editorUnicodeHighlight-background: rgba(189, 155, 3, 0.15);
+--vscode-editorOverviewRuler-bracketMatchForeground: #a0a0a0;
+--vscode-editor-linkedEditingBackground: rgba(255, 0, 0, 0.3);
+--vscode-editor-wordHighlightBackground: rgba(87, 87, 87, 0.72);
+--vscode-editor-wordHighlightStrongBackground: rgba(0, 73, 114, 0.72);
+--vscode-editor-wordHighlightTextBackground: rgba(87, 87, 87, 0.72);
+--vscode-editorOverviewRuler-wordHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(192, 160, 192, 0.8);
+--vscode-editorOverviewRuler-wordHighlightTextForeground: rgba(160, 160, 160, 0.8);
+--vscode-peekViewTitle-background: #252526;
+--vscode-peekViewTitleLabel-foreground: #ffffff;
+--vscode-peekViewTitleDescription-foreground: rgba(204, 204, 204, 0.7);
+--vscode-peekView-border: #3794ff;
+--vscode-peekViewResult-background: #252526;
+--vscode-peekViewResult-lineForeground: #bbbbbb;
+--vscode-peekViewResult-fileForeground: #ffffff;
+--vscode-peekViewResult-selectionBackground: rgba(51, 153, 255, 0.2);
+--vscode-peekViewResult-selectionForeground: #ffffff;
+--vscode-peekViewEditor-background: #001f33;
+--vscode-peekViewEditorGutter-background: #001f33;
+--vscode-peekViewEditorStickyScroll-background: #001f33;
+--vscode-peekViewResult-matchHighlightBackground: rgba(234, 92, 0, 0.3);
+--vscode-peekViewEditor-matchHighlightBackground: rgba(255, 143, 0, 0.6);
+--vscode-editorMarkerNavigationError-background: #f14c4c;
+--vscode-editorMarkerNavigationError-headerBackground: rgba(241, 76, 76, 0.1);
+--vscode-editorMarkerNavigationWarning-background: #cca700;
+--vscode-editorMarkerNavigationWarning-headerBackground: rgba(204, 167, 0, 0.1);
+--vscode-editorMarkerNavigationInfo-background: #3794ff;
+--vscode-editorMarkerNavigationInfo-headerBackground: rgba(55, 148, 255, 0.1);
+--vscode-editorMarkerNavigation-background: #1e1e1e;
+--vscode-editorHoverWidget-highlightForeground: #2aaaff;
+--vscode-editorSuggestWidget-background: #252526;
+--vscode-editorSuggestWidget-border: #454545;
+--vscode-editorSuggestWidget-foreground: #d4d4d4;
+--vscode-editorSuggestWidget-selectedForeground: #ffffff;
+--vscode-editorSuggestWidget-selectedBackground: #04395e;
+--vscode-editorSuggestWidget-highlightForeground: #2aaaff;
+--vscode-editorSuggestWidget-focusHighlightForeground: #2aaaff;
+--vscode-editorSuggestWidgetStatus-foreground: rgba(212, 212, 212, 0.5);
+--vscode-editor-foldBackground: rgba(38, 79, 120, 0.3);
+--vscode-editorGutter-foldingControlForeground: #c5c5c5; }
+
+.mtk1 { color: #d4d4d4; }
+.mtk2 { color: #1e1e1e; }
+.mtk3 { color: #cc6666; }
+.mtk4 { color: #9cdcfe; }
+.mtk5 { color: #ce9178; }
+.mtk6 { color: #b5cea8; }
+.mtk7 { color: #608b4e; }
+.mtk8 { color: #569cd6; }
+.mtk9 { color: #dcdcdc; }
+.mtk10 { color: #808080; }
+.mtk11 { color: #f44747; }
+.mtk12 { color: #c586c0; }
+.mtk13 { color: #a79873; }
+.mtk14 { color: #dd6a6f; }
+.mtk15 { color: #5bb498; }
+.mtk16 { color: #909090; }
+.mtk17 { color: #778899; }
+.mtk18 { color: #ff00ff; }
+.mtk19 { color: #b46695; }
+.mtk20 { color: #ff0000; }
+.mtk21 { color: #4f76ac; }
+.mtk22 { color: #3dc9b0; }
+.mtk23 { color: #74b0df; }
+.mtk24 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
+.mtks { text-decoration: line-through; }
+.mtks.mtku { text-decoration: underline line-through; text-underline-position: under; }</style></head>
+
+<body style="overflow: hidden;">
+  <div id="root"><div class="_viewWrapper_2zwu1_1"><header class="_user-header_1yyh6_1 navbar"><div class="_user-header-inner_1yyh6_14"><div class="_menu-toggle-container_1yyh6_390"><input type="checkbox" id="menu-toggle" class="_menu-toggle_1yyh6_390"><label for="menu-toggle" class="_hamburger_1yyh6_399"><span></span><span></span><span></span></label></div><div class="_logo_1yyh6_70"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="_lightLogo_1yyh6_429"><g clip-path="url(#clip0_6159_4603)"><g clip-path="url(#clip1_6159_4603)"><g clip-path="url(#clip2_6159_4603)"><path d="M0 1.1425L0 4.22042C0 4.57546 0.287816 4.86328 0.642855 4.86328C0.997894 4.86328 1.28571 4.57546 1.28571 4.22042L1.28571 1.1425C1.28571 0.787458 0.997894 0.499641 0.642855 0.499641C0.287816 0.499641 0 0.787458 0 1.1425Z" fill="currentColor"></path><path d="M0.545173 1.58984L4.59712 1.58984C4.89837 1.58984 5.14258 1.34564 5.14258 1.04439C5.14258 0.743142 4.89837 0.498934 4.59712 0.498934L0.545173 0.498934C0.243927 0.498934 -0.000281811 0.743142 -0.000281811 1.04439C-0.000281811 1.34564 0.243927 1.58984 0.545173 1.58984Z" fill="currentColor"></path><path d="M0.545173 24.5H4.59712C4.89837 24.5 5.14258 24.2558 5.14258 23.9545C5.14258 23.6533 4.89837 23.4091 4.59712 23.4091H0.545173C0.243927 23.4091 -0.000281811 23.6533 -0.000281811 23.9545C-0.000281811 24.2558 0.243927 24.5 0.545173 24.5Z" fill="currentColor"></path><path d="M1.28613 23.8575L1.28613 20.7796C1.28613 20.4245 0.998317 20.1367 0.643278 20.1367C0.288239 20.1367 0.000421524 20.4245 0.000421524 20.7796L0.000421524 23.8575C0.000421524 24.2125 0.288239 24.5004 0.643278 24.5004C0.998317 24.5004 1.28613 24.2125 1.28613 23.8575Z" fill="currentColor"></path><path d="M24 23.8575V20.7796C24 20.4245 23.7122 20.1367 23.3571 20.1367C23.0021 20.1367 22.7143 20.4245 22.7143 20.7796V23.8575C22.7143 24.2125 23.0021 24.5004 23.3571 24.5004C23.7122 24.5004 24 24.2125 24 23.8575Z" fill="currentColor"></path><path d="M23.4548 23.4102H19.4029C19.1016 23.4102 18.8574 23.6544 18.8574 23.9556C18.8574 24.2569 19.1016 24.5011 19.4029 24.5011H23.4548C23.7561 24.5011 24.0003 24.2569 24.0003 23.9556C24.0003 23.6544 23.7561 23.4102 23.4548 23.4102Z" fill="currentColor"></path><path d="M23.4548 0.5H19.4029C19.1016 0.5 18.8574 0.744209 18.8574 1.04545C18.8574 1.3467 19.1016 1.59091 19.4029 1.59091H23.4548C23.7561 1.59091 24.0003 1.3467 24.0003 1.04545C24.0003 0.744209 23.7561 0.5 23.4548 0.5Z" fill="currentColor"></path><path d="M22.7139 1.1425V4.22042C22.7139 4.57546 23.0017 4.86328 23.3567 4.86328C23.7118 4.86328 23.9996 4.57546 23.9996 4.22042V1.1425C23.9996 0.787458 23.7118 0.49964 23.3567 0.49964C23.0017 0.49964 22.7139 0.787458 22.7139 1.1425Z" fill="currentColor"></path><g clip-path="url(#clip3_6159_4603)"><path d="M4.72754 8.13707L12.3301 3.77344L19.9354 8.13707L20.0008 16.8273L12.3301 21.228L4.72754 16.8643V8.13707ZM6.24718 9.94089V13.4013L8.67881 14.7534V17.3105L11.5681 18.9813V12.9643L6.24718 9.94089ZM18.4206 9.94089L13.0997 12.9638V18.9807L15.9863 17.31V14.7562L18.4212 13.4013L18.4206 9.94089ZM7.0059 8.57453L12.3186 11.5887L17.6423 8.54889L14.8272 6.94962L12.347 8.36453L9.85263 6.93271L7.0059 8.57453Z" fill="currentColor"></path></g></g></g></g><defs><clippath id="clip0_6159_4603"><rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect></clippath><clippath id="clip1_6159_4603"><rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect></clippath><clippath id="clip2_6159_4603"><rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect></clippath><clippath id="clip3_6159_4603"><rect width="17.4545" height="17.4545" fill="currentColor" transform="translate(3.27246 3.77344)"></rect></clippath></defs></svg><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="_darkLogo_1yyh6_419"><g clip-path="url(#clip0_6159_4603)"><g clip-path="url(#clip1_6159_4603)"><g clip-path="url(#clip2_6159_4603)"><path d="M0 1.1425L0 4.22042C0 4.57546 0.287816 4.86328 0.642855 4.86328C0.997894 4.86328 1.28571 4.57546 1.28571 4.22042L1.28571 1.1425C1.28571 0.787458 0.997894 0.499641 0.642855 0.499641C0.287816 0.499641 0 0.787458 0 1.1425Z" fill="currentColor"></path><path d="M0.545173 1.58984L4.59712 1.58984C4.89837 1.58984 5.14258 1.34564 5.14258 1.04439C5.14258 0.743142 4.89837 0.498934 4.59712 0.498934L0.545173 0.498934C0.243927 0.498934 -0.000281811 0.743142 -0.000281811 1.04439C-0.000281811 1.34564 0.243927 1.58984 0.545173 1.58984Z" fill="currentColor"></path><path d="M0.545173 24.5H4.59712C4.89837 24.5 5.14258 24.2558 5.14258 23.9545C5.14258 23.6533 4.89837 23.4091 4.59712 23.4091H0.545173C0.243927 23.4091 -0.000281811 23.6533 -0.000281811 23.9545C-0.000281811 24.2558 0.243927 24.5 0.545173 24.5Z" fill="currentColor"></path><path d="M1.28613 23.8575L1.28613 20.7796C1.28613 20.4245 0.998317 20.1367 0.643278 20.1367C0.288239 20.1367 0.000421524 20.4245 0.000421524 20.7796L0.000421524 23.8575C0.000421524 24.2125 0.288239 24.5004 0.643278 24.5004C0.998317 24.5004 1.28613 24.2125 1.28613 23.8575Z" fill="currentColor"></path><path d="M24 23.8575V20.7796C24 20.4245 23.7122 20.1367 23.3571 20.1367C23.0021 20.1367 22.7143 20.4245 22.7143 20.7796V23.8575C22.7143 24.2125 23.0021 24.5004 23.3571 24.5004C23.7122 24.5004 24 24.2125 24 23.8575Z" fill="currentColor"></path><path d="M23.4548 23.4102H19.4029C19.1016 23.4102 18.8574 23.6544 18.8574 23.9556C18.8574 24.2569 19.1016 24.5011 19.4029 24.5011H23.4548C23.7561 24.5011 24.0003 24.2569 24.0003 23.9556C24.0003 23.6544 23.7561 23.4102 23.4548 23.4102Z" fill="currentColor"></path><path d="M23.4548 0.5H19.4029C19.1016 0.5 18.8574 0.744209 18.8574 1.04545C18.8574 1.3467 19.1016 1.59091 19.4029 1.59091H23.4548C23.7561 1.59091 24.0003 1.3467 24.0003 1.04545C24.0003 0.744209 23.7561 0.5 23.4548 0.5Z" fill="currentColor"></path><path d="M22.7139 1.1425V4.22042C22.7139 4.57546 23.0017 4.86328 23.3567 4.86328C23.7118 4.86328 23.9996 4.57546 23.9996 4.22042V1.1425C23.9996 0.787458 23.7118 0.49964 23.3567 0.49964C23.0017 0.49964 22.7139 0.787458 22.7139 1.1425Z" fill="currentColor"></path><g clip-path="url(#clip3_6159_4603)"><path d="M4.72754 8.13707L12.3301 3.77344L19.9354 8.13707L20.0008 16.8273L12.3301 21.228L4.72754 16.8643V8.13707ZM6.24718 9.94089V13.4013L8.67881 14.7534V17.3105L11.5681 18.9813V12.9643L6.24718 9.94089ZM18.4206 9.94089L13.0997 12.9638V18.9807L15.9863 17.31V14.7562L18.4212 13.4013L18.4206 9.94089ZM7.0059 8.57453L12.3186 11.5887L17.6423 8.54889L14.8272 6.94962L12.347 8.36453L9.85263 6.93271L7.0059 8.57453Z" fill="currentColor"></path></g></g></g></g><defs><clippath id="clip0_6159_4603"><rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect></clippath><clippath id="clip1_6159_4603"><rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect></clippath><clippath id="clip2_6159_4603"><rect width="24" height="24" fill="currentColor" transform="translate(0 0.5)"></rect></clippath><clippath id="clip3_6159_4603"><rect width="17.4545" height="17.4545" fill="currentColor" transform="translate(3.27246 3.77344)"></rect></clippath></defs></svg><span>SandboxPro</span> | <svg width="24" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 9.5L27 1.5H34L34.5 7.5L31 27.5H4V9.5Z" fill="white"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M14.3053 0.877576C8.35889 2.09938 3.78258 5.79698 1.56896 11.1685C0.850972 12.9109 0.00337577 16.5881 9.3264e-06 17.9753C-0.00298307 19.1434 0.714818 23.0045 1.13394 24.0749C3.39937 29.8622 8.10248 33.9992 13.7534 35.1758C16.126 35.6697 19.8871 35.5901 22.0669 34.9997C26.9643 33.673 31.1271 30.1415 33.302 25.468C34.8176 22.2115 34.8367 22.0367 34.9233 10.622L35 0.5L25.4943 0.515819C17.0464 0.529942 15.8014 0.570242 14.3053 0.877576ZM33.4754 4.83129C33.4754 7.40502 33.4421 7.68957 33.1013 8.03268C32.648 8.48917 31.746 8.52419 31.3942 8.09897C31.2408 7.91367 31.1 7.13648 31.0441 6.16872L30.9505 4.54882L29.3418 4.45466C28.3806 4.39835 27.6088 4.25655 27.4247 4.10213C27.0024 3.74791 27.0372 2.83965 27.4906 2.38317C27.8313 2.04006 28.1139 2.00654 30.67 2.00654H33.4754V4.83129ZM9.63851 12.1757C11.3919 15.2804 12.2965 16.7744 12.4549 16.8275C12.5525 16.8602 13.2118 15.8482 13.9199 14.5784C14.6278 13.3088 15.4082 11.9943 15.6542 11.6578L16.1012 11.0458H17.8684H19.6355V18.115V25.1842L17.9991 25.1298L16.3626 25.0754L16.2691 20.8605L16.1756 16.6457L15.1602 18.224C14.6018 19.0922 13.7504 20.3716 13.2683 21.0672L12.3919 22.3318L10.9675 20.1257C10.1843 18.9121 9.33423 17.6651 9.07894 17.3544L8.61455 16.7894L8.60782 20.8818L8.60109 24.9741L8.17449 25.0818C7.93996 25.1411 7.20345 25.1639 6.53802 25.1324L5.32816 25.0754L5.27916 18.054L5.23016 11.0326L7.14173 11.0862L9.0535 11.1399L9.63851 12.1757ZM23.8889 11.2812C23.9904 11.4107 24.5506 12.6606 25.1335 14.0588C25.7165 15.4571 26.4403 17.1519 26.7419 17.8252C27.7878 20.1597 29.7349 24.8517 29.7349 25.037C29.7349 25.1533 29.1598 25.1837 28.2043 25.1178C26.5139 25.001 26.3765 24.9076 25.617 23.3583C25.0104 22.1209 24.7729 21.9915 22.9964 21.9294L21.4123 21.874L21.3562 20.7912L21.3001 19.7083H22.3227C23.4267 19.7083 23.9371 19.581 23.9371 19.3057C23.9371 19.1295 22.5286 15.333 21.5013 12.7406C21.1935 11.9638 20.9423 11.2646 20.9432 11.187C20.9458 10.9377 23.6884 11.0254 23.8889 11.2812Z" fill="#E53935"></path></svg></div><nav class="_nav_1yyh6_85"><ul><li><button class="_nav-item_1yyh6_126">Get Started</button></li><li><button class="_nav-item_1yyh6_126">Explore</button></li><li><button class="_nav-item-selected_1yyh6_149">My Projects</button></li><li><button class="_nav-item_1yyh6_126">My Question Library</button></li></ul></nav><div class="_right_1yyh6_183"><div class="_sanAgentStyle_1yyh6_100">🤖 AIM (AI Mentor)<span class="_newTagStyle_1yyh6_568">New</span></div><button class="_mode-btn_1yyh6_229 lightOrDarkMode" aria-label="Theme switch: Dark to Light or vice versa"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g id="Dark"><path d="M12.741,20.917a9.389,9.389,0,0,1-1.395-.105,9.141,9.141,0,0,1-1.465-17.7,1.177,1.177,0,0,1,1.21.281,1.273,1.273,0,0,1,.325,1.293,8.112,8.112,0,0,0-.353,2.68,8.266,8.266,0,0,0,4.366,6.857,7.628,7.628,0,0,0,3.711.993,1.242,1.242,0,0,1,.994,1.963h0A9.148,9.148,0,0,1,12.741,20.917ZM10.261,4.05a.211.211,0,0,0-.065.011,8.137,8.137,0,1,0,9.131,12.526h0a.224.224,0,0,0,.013-.235.232.232,0,0,0-.206-.136A8.619,8.619,0,0,1,14.946,15.1a9.274,9.274,0,0,1-4.883-7.7,9.123,9.123,0,0,1,.4-3.008.286.286,0,0,0-.069-.285A.184.184,0,0,0,10.261,4.05Z"></path></g></svg></button><button class="_auth-btn_1yyh6_195 
+                  createProjectButton ">Create Projects <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button><div class="_user-profile_1yyh6_348"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-xz9haa" tabindex="0" type="button"><div class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-izjo8k">V</div></button></div></div></div><div class="_nav_1yyh6_85 _mobile-nav_1yyh6_466"><ul><li><button class="_nav-item_1yyh6_126">Get Started</button></li><li><button class="_nav-item_1yyh6_126">Explore</button></li><li><button class="_nav-item-selected_1yyh6_149">My Projects</button></li><li><button class="_nav-item_1yyh6_126">My Question Library</button></li><li class="_nav-item-user-profile_1yyh6_514"><div class="_user-profile_1yyh6_348"><div class="_user-info_1yyh6_355"><span class="_user-name_1yyh6_362" title="Vibha pal">Vibha pal</span><span class="_user-email_1yyh6_371" title="0231csai205@niet.co.in">0231csai205@niet.co.in</span></div><button class="_logout-btn_1yyh6_378" title="Logout"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M304 336v40a40 40 0 0 1-40 40H104a40 40 0 0 1-40-40V136a40 40 0 0 1 40-40h152c22.09 0 48 17.91 48 40v40m64 160 80-80-80-80m-192 80h256"></path></svg></button></div></li></ul></div></header><div class="_componentContainer_2zwu1_7"><div class="_myProjectsSectionOuterContainer_13r5t_1"><div class="_project-filter-container_tlinm_1"><div class="_project-filter-tabs_tlinm_12"><span><button type="button" class="_project-filter-tab_tlinm_12
+              _active_tlinm_91" aria-label=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info" aria-label="Click here to know about All Projects" style="margin-bottom: 1px; margin-right: 6px; cursor: pointer;"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>All Projects</button></span><span><button type="button" class="_project-filter-tab_tlinm_12
+              " aria-label=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info" aria-label="Click here to know about Code Snippets" style="margin-bottom: 1px; margin-right: 6px; cursor: pointer;"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>Code Snippets</button></span><span><button type="button" class="_project-filter-tab_tlinm_12
+              " aria-label=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info" aria-label="Click here to know about Mini Projects" style="margin-bottom: 1px; margin-right: 6px; cursor: pointer;"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>Mini Projects</button></span><span><button type="button" class="_project-filter-tab_tlinm_12
+              " aria-label=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info" aria-label="Click here to know about Capstone Projects" style="margin-bottom: 1px; margin-right: 6px; cursor: pointer;"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>Capstone Projects</button></span><span><button type="button" class="_project-filter-tab_tlinm_12
+              " aria-label=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info" aria-label="Click here to know about Collaboration Projects" style="margin-bottom: 1px; margin-right: 6px; cursor: pointer;"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>Collaboration Projects</button></span></div><div class="_view-public-projects-container_tlinm_20"><button class="_view-public-projects-button_tlinm_25"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M1023.31 473.28c-1.36-11.312-5.614-21.713-12.095-30.465h.16l-.88-.88c-3.28-4.32-7.12-8.128-11.408-11.504L831.935 262.047V158.783c0-17.68-14.32-32-32-32H698.607l-116.8-99.711c-36.223-36.224-99.504-36.289-135.776 0l-116.4 99.711H223.935c-17.68 0-32 14.32-32 32V264.16L28.815 427.28c-17.343 11.472-28.88 31.088-28.88 53.344v479.504c0 35.184 28.817 64 64 64h896c35.184 0 64-28.816 64-64v-478.24c.224-2.88-.064-5.76-.624-8.607zM268.865 725.503L63.937 915.582V544.686zm61.697 29.999a31.634 31.634 0 0 0 11.377-8.224c1.712-1.935 3.056-4.063 4.224-6.255l137.904-127.936c7.248-5.84 15.84-8.913 24.88-8.913 9.183 0 18.367 3.216 24.527 8l383.84 347.936H110.002zm427.777-25.776l201.6-178.896v361.632zm139.599-313.104h-.976l54.896 55.792-119.92 106.432V350.638zM491.283 72.318c6.064-6.032 14.095-9.376 22.623-9.376 8.56 0 16.592 3.344 22.656 9.376l64.624 54.464H426.754zm276.655 118.464V635.63l-57.312 50.88-136.32-123.568c-37.68-29.536-91.775-30.817-131.68 1.376l-126.624 117.44-60.064-53.008V190.782zM103.777 442.813l88.16-88.129V572.3L75.313 469.404l26.992-26.592h1.472z"></path></svg> Inbox</button><button class="_view-public-projects-button_tlinm_25">View Public Projects</button></div></div><div class="_myProjectsSection_13r5t_1 _myProjectsSection_13r5t_1"><div class="_drawerWithDraggableButtonContainer_yec98_63"><div class="MuiDrawer-root _drawerRoot_yec98_22 customDrawerRoot MuiDrawer-anchorRight MuiDrawer-docked css-m90ygk" container="[object HTMLDivElement]"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper _drawerPaper_yec98_38 _drawerOpen_yec98_27 customDrawerPaper MuiDrawer-paperAnchorRight MuiDrawer-paperAnchorDockedRight css-1w4thhl" style="--Paper-shadow: none; transform: none; transition: transform 225ms cubic-bezier(0, 0, 0.2, 1);"><div class="_search-header-drawer-container_xdhuw_1"><div class="_search-header-drawer-header-container_xdhuw_98"><div class="_search-header-drawer-header-text-container_xdhuw_114"><div>Search and Filter</div></div><div class="_search-header-drawer-close-button_xdhuw_109"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg></div></div><div class="_search-header-container_xdhuw_7"><div class="_search-header-input-outer-container_xdhuw_61"><div class="_search-header-input-label_xdhuw_68">Project Title</div><div class="_search-header-input-container_xdhuw_18"><div class="_search-header-input-inner-container_xdhuw_28"><svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="_search-header-icon_xdhuw_37"><path d="M12.2584 12.9843L8.94214 9.5239C9.67335 8.63373 10.0976 7.48189 10.0976 6.21755C10.0976 3.40764 7.91493 1.13086 5.2228 1.13086C2.53067 1.13086 0.369141 3.40838 0.369141 6.21755C0.369141 9.02673 2.55153 11.3042 5.2228 11.3042C6.43399 11.3042 7.53948 10.8406 8.39139 10.0778L11.7076 13.5382C11.8014 13.6128 11.8975 13.652 11.9935 13.652C12.0896 13.652 12.1854 13.6138 12.2586 13.5373C12.406 13.3854 12.406 13.1359 12.2584 12.9843ZM5.24389 10.5217C2.94948 10.5217 1.11911 8.58971 1.11911 6.21755C1.11911 3.84539 2.94948 1.91343 5.24389 1.91343C7.53831 1.91343 9.36868 3.82338 9.36868 6.21755C9.36868 8.61172 7.51721 10.5217 5.24389 10.5217Z" fill="#3F0E40"></path></svg><input type="text" class="_search-header-input_xdhuw_18" placeholder="Search by Project title"></div></div></div><div class="_search-header-input-outer-container_h025p_129"><div class="_search-header-input-label_h025p_136">Project Type</div><div class="_search-header-dialog-select-container_h025p_11"><div class="MuiAutocomplete-root _search-header-dialog-autocomplete-root_h025p_21 MuiAutocomplete-hasPopupIcon css-65tdxr"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vbfw84"><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot _search-header-dialog-item-select_h025p_1 css-1kmkvia"><input aria-invalid="false" autocomplete="off" id=":rui:" placeholder="Project Type" type="text" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-qwdxx6" aria-autocomplete="list" aria-expanded="false" autocapitalize="none" spellcheck="false" role="combobox" value=""><div class="MuiAutocomplete-endAdornment css-iuka1o"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-amwtx2" tabindex="-1" type="button" aria-label="Open" title="Open"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></button></div><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-5v2ak0"><legend class="css-w4cd9x"><span class="notranslate" aria-hidden="true">​</span></legend></fieldset></div></div></div></div><div class="_search-header-dialog-select-chip-container_h025p_142"></div></div><div class="_search-header-input-outer-container_18sas_134"><div class="_search-header-input-label_18sas_141">Project Visibility</div><div class="_search-header-dialog-select-container_18sas_14"><div class="MuiAutocomplete-root _search-header-dialog-autocomplete-root_18sas_10 MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon css-1hdoajr"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vbfw84"><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot _search-header-dialog-item-select_18sas_1 css-1kmkvia"><input aria-invalid="false" autocomplete="off" id=":rul:" placeholder="Project visibility" type="text" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-qwdxx6" aria-autocomplete="list" aria-expanded="false" autocapitalize="none" spellcheck="false" role="combobox" value=""><div class="MuiAutocomplete-endAdornment css-iuka1o"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-clearIndicator css-1o3l9i0" tabindex="-1" type="button" aria-label="Clear" title="Clear"></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-amwtx2" tabindex="-1" type="button" aria-label="Open" title="Open"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></button></div><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-5v2ak0"><legend class="css-w4cd9x"><span class="notranslate" aria-hidden="true">​</span></legend></fieldset></div></div></div></div></div><div class="_search-header-input-outer-container_h2dl3_134"><div class="_search-header-input-label_h2dl3_141">Project Difficulty</div><div class="_search-header-dialog-select-container_h2dl3_14"><div class="MuiAutocomplete-root _search-header-dialog-autocomplete-root_h2dl3_10 MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon css-1hdoajr"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1vbfw84"><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot _search-header-dialog-item-select_h2dl3_1 css-1kmkvia"><input aria-invalid="false" autocomplete="off" id=":rup:" placeholder="Project Difficulty" type="text" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-qwdxx6" aria-autocomplete="list" aria-expanded="false" autocapitalize="none" spellcheck="false" role="combobox" value=""><div class="MuiAutocomplete-endAdornment css-iuka1o"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-clearIndicator css-1o3l9i0" tabindex="-1" type="button" aria-label="Clear" title="Clear"></button><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium MuiAutocomplete-popupIndicator css-amwtx2" tabindex="-1" type="button" aria-label="Open" title="Open"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"></path></svg></button></div><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-5v2ak0"><legend class="css-w4cd9x"><span class="notranslate" aria-hidden="true">​</span></legend></fieldset></div></div></div></div></div><div class="_search-header-input-outer-container_xdhuw_61"><div class="_search-header-input-label_xdhuw_68"><div>Order By</div><div class="_info-icon_xdhuw_77" aria-label="Order By is used to sort the projects based on the selected criteria.
+                   You can choose to view the projects in ascending or descending order."><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-miterlimit="10" stroke-width="32" d="M248 64C146.39 64 64 146.39 64 248s82.39 184 184 184 184-82.39 184-184S349.61 64 248 64z"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M220 220h32v116"></path><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M208 340h88"></path><path d="M248 130a26 26 0 1 0 26 26 26 26 0 0 0-26-26z"></path></svg></div></div><div class="_search-header-toggle-container_xdhuw_158"><span class="_search-header-toggle-label_xdhuw_164">Recent Projects</span><label class="MuiFormControlLabel-root _search-header-toggle-root_xdhuw_178 MuiFormControlLabel-labelPlacementEnd css-wz5myd"><span class="MuiSwitch-root MuiSwitch-sizeMedium css-bnbzk8"><span class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary css-17z6nsr"><input type="checkbox" role="switch" class="PrivateSwitchBase-input MuiSwitch-input css-j8yymo"><span class="MuiSwitch-thumb css-pcrmjj"></span></span><span class="MuiSwitch-track css-1khxa25"></span></span><span class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-fyswvn"></span></label><span class="_search-header-toggle-label_xdhuw_164">Older Projects</span></div></div></div><div class="_search-header-drawer-footer-container_xdhuw_122"><div class="_search-header-drawer-footer-button_xdhuw_133 
+          _search-header-drawer-footer-button-disabled_xdhuw_153">Clear All</div></div></div></div></div></div><div class="_myProjectsSectionInnerContainer_13r5t_22"><div class="_myProjectsSectionItemContainer_13r5t_37"><div class="_myProjectsSectionItem_ps5tu_95 publicProjectsCard"><div class="_myProjectsSectionHeader_ps5tu_126"><div class="_myProjectsSectionItemProjectName_ps5tu_133"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 346" class="_myProjectsSectionItemProjectIcon_ps5tu_95"><path d="m82.5539491 267.472524s-13.1984291 7.675345 9.3928727 10.272581c27.3687272 3.12227 41.3565672 2.674502 71.5170912-3.033832 0 0 7.929483 4.971985 19.003578 9.278371-67.611927 28.977338-153.0191128-1.678429-99.9135419-16.51712" fill="#5382a1"></path><path d="m74.2921309 229.658996s-14.8033164 10.957731 7.8047418 13.296175c29.2361313 3.016145 52.3245383 3.262836 92.2763633-4.430196 0 0 5.525877 5.60221 14.214982 8.665832-81.746851 23.903884-172.798138 1.885091-114.2960871-17.531811" fill="#5382a1"></path><path d="m143.941818 165.514705c16.659549 19.180451-4.377134 36.440437-4.377134 36.440437s42.30144-21.837266 22.874298-49.18272c-18.144349-25.501324-32.058647-38.171927 43.267723-81.8585602 0 0-118.2375559 29.5302982-61.764887 94.6008432" fill="#e76f00"></path><g fill="#5382a1"><path d="m233.364015 295.441687s9.767098 8.047709-10.756655 14.273629c-39.026502 11.822546-162.4324655 15.392582-196.7141236.47104-12.3233746-5.361105 10.7864436-12.800931 18.0559127-14.362065 7.5813236-1.643986 11.9137745-1.337716 11.9137745-1.337716-13.7048436-9.654459-88.5825163 18.957032-38.0341527 27.150894 137.8527421 22.355782 251.2923931-10.066851 215.5352441-26.195782"></path><path d="m88.9008873 190.479825s-62.7721309 14.90944-22.2291782 20.323608c17.1184873 2.291898 51.2437529 1.773382 83.0305749-.889949 25.977949-2.19136 52.062952-6.85056 52.062952-6.85056s-9.160145 3.922851-15.787287 8.448c-63.744 16.764741-186.88558536 8.965585-151.4347054-8.182691 29.9808582-14.492393 54.3576437-12.848408 54.3576437-12.848408"></path><path d="m201.506444 253.422313c64.79872-33.671913 34.838341-66.030313 13.9264-61.670866-5.125586 1.066822-7.410968 1.991215-7.410968 1.991215s1.902779-2.980771 5.537048-4.271011c41.370531-14.544524 73.187141 42.897222-13.354822 65.647709 0 .000931 1.002589-.895535 1.302342-1.697047"></path></g><path d="m162.438982.37143273s35.886545 35.89864727-34.036829 91.10062547c-56.0714475 44.2814838-12.786037 69.5295998-.023273 98.3766108-32.7298327-29.530298-56.7491491-55.525934-40.6351127-79.720262 23.6516077-35.5151125 89.1745747-52.7341379 74.6952147-109.75697427" fill="#e76f00"></path><path d="m95.2683055 344.665367c62.1986905 3.981498 157.7118255-2.209047 159.9739345-31.639738 0 0-4.348276 11.156946-51.403869 20.017338-53.087884 9.990517-118.5643055 8.824088-157.3990401 2.421295.0009309-.000931 7.9499636 6.579665 48.8289746 9.201105" fill="#5382a1"></path></svg><div class="_projectNameHeading_ps5tu_186"><span aria-label="Parallel data processor" class="">Parallel data processor</span></div></div><div><div class="_tripleDotIcon_ps5tu_254"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"></path></svg></div></div></div><div class="_myProjectsSectionMetaInfo_ps5tu_15"><div aria-label="Difficulty: Easy" class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-1dh7fsw"><span class="MuiChip-label MuiChip-labelSmall css-b9zgoq">Easy</span></div><div aria-label="Category: Mini Projects" class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-e9wpme"><span class="MuiChip-label MuiChip-labelSmall css-b9zgoq">Mini Projects</span></div></div><div class="_myProjectsInformationContainer_ps5tu_285"><div><div class="_myProjectsSectionLanguageUsed_ps5tu_299"><span class="_wrapper_ps5tu_345" aria-label="Language: Java"><span class="_langStyle_ps5tu_323"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml" aria-hidden="true"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></svg>Language: Java</span></span></div><div class="_myProjectsSectionRoleUsed_ps5tu_311"><span class="_wrapper_ps5tu_345" aria-label="Project Role: "><span class="_roleStyle_ps5tu_334"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-cog" aria-hidden="true"><path d="M10 15H6a4 4 0 0 0-4 4v2"></path><path d="m14.305 16.53.923-.382"></path><path d="m15.228 13.852-.923-.383"></path><path d="m16.852 12.228-.383-.923"></path><path d="m16.852 17.772-.383.924"></path><path d="m19.148 12.228.383-.923"></path><path d="m19.53 18.696-.382-.924"></path><path d="m20.772 13.852.924-.383"></path><path d="m20.772 16.148.924.383"></path><circle cx="18" cy="15" r="3"></circle><circle cx="9" cy="7" r="4"></circle></svg>Non-Collaborative Project</span></span></div><div class="_myProjectsSectionCreatedAtContainer_ps5tu_368"><div class="_myProjectsSectionCreatedAt_ps5tu_266"><span class="_authorInfo_ps5tu_353" aria-label="Created At: 06/04/2026"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>Created At: <span class="_fontWeight_ps5tu_360">06/04/2026</span></span></div></div></div><hr class="_myProjectsSectionDivider_ps5tu_291"><div class="_myProjectsSectionLikeAndViewsContainer_ps5tu_444"><div class="_likeContainer_ps5tu_379"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="_unlikedIcon_ps5tu_402" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 8h-5.612l1.123-3.367c.202-.608.1-1.282-.275-1.802S14.253 2 13.612 2H12c-.297 0-.578.132-.769.36L6.531 8H4c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2h13.307a2.01 2.01 0 0 0 1.873-1.298l2.757-7.351A1 1 0 0 0 22 12v-2c0-1.103-.897-2-2-2zM4 10h2v9H4v-9zm16 1.819L17.307 19H8V9.362L12.468 4h1.146l-1.562 4.683A.998.998 0 0 0 13 10h7v1.819z"></path></svg><span class="" aria-label="0 like">0 like</span></div><div class="_viewsContainer_ps5tu_406"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye" aria-hidden="true"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></svg><span aria-label="1 view" class="">1 view</span></div><div><span class="_myProjectsSectionForkValue_ps5tu_28" aria-label="0 Fork"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-git-fork" aria-hidden="true"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg><p>0 fork</p></span></div></div></div></div></div></div></div></div></div><div></div><div></div></div><section class="Toastify" aria-live="polite" aria-atomic="false" aria-relevant="additions text" aria-label="Notifications Alt+T"></section></div>
+<script defer="" src="./parallel data processor_files/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;fa0e9b450cd14cf0b8a9d2150e5013de&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+<iframe name="__uspapiLocator" tabindex="-1" role="presentation" aria-hidden="true" title="Blank" style="display: none; position: absolute; width: 1px; height: 1px; top: -9999px;" src="./parallel data processor_files/saved_resource.html"></iframe><iframe tabindex="-1" role="presentation" aria-hidden="true" title="Blank" src="./parallel data processor_files/bc-v4.min.html" style="position: absolute; width: 1px; height: 1px; top: -9999px;"></iframe><textarea id="neopass-invisible-copy" style="position: fixed; opacity: 0; pointer-events: none; left: -9999px; top: -9999px; width: 1px; height: 1px; border: none; outline: none; resize: none; overflow: hidden;"></textarea><div id="chat-button-shadow-host" style="position: fixed; bottom: 0px; right: 0px; z-index: 2147483647; pointer-events: none;"><template shadowrootmode="open"><style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+                
+                /* CSS Reset for Button Shadow DOM */
+                * {
+                    box-sizing: border-box;
+                }
+                
+                button {
+                    display: block;
+                    cursor: pointer;
+                    border: none;
+                    padding: 0;
+                    margin: 0;
+                    background: none;
+                    outline: none;
+                    font-family: 'Poppins', sans-serif;
+                    position: relative;
+                }
+                
+                .chat-icon-span {
+                    display: block;
+                    position: absolute;
+                    top: 14px;
+                    right: 10px;
+                    left: 9px;
+                    bottom: 10px;
+                    width: 35px;
+                    height: 30px;
+                    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2235%22%20height%3D%2230%22%20viewBox%3D%220%200%2035%2030%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22c%22%20width%3D%22123.1%25%22%20height%3D%22127.9%25%22%20x%3D%22-11.5%25%22%3E%3CfeOffset%20dy%3D%221%22%20in%3D%22SourceAlpha%22%20result%3D%22shadowOffsetOuter1%22%2F%3E%3CfeGaussianBlur%20in%3D%22shadowOffsetOuter1%22%20result%3D%22shadowBlurOuter1%22%20stdDeviation%3D%221%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowBlurOuter1%22%20values%3D%220%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.07%200%22%2F%3E%3C%2Ffilter%3E%3Cfilter%20id%3D%22e%22%20width%3D%22129.7%25%22%20height%3D%22135.9%25%22%20x%3D%22-14.8%25%22%20y%3D%22-14%25%22%3E%3CfeMorphology%20in%3D%22SourceAlpha%22%20radius%3D%221%22%20result%3D%22shadowSpreadInner1%22%2F%3E%3CfeGaussianBlur%20in%3D%22shadowSpreadInner1%22%20result%3D%22shadowBlurInner1%22%20stdDeviation%3D%222%22%2F%3E%3CfeOffset%20in%3D%22shadowBlurInner1%22%20result%3D%22shadowOffsetInner1%22%2F%3E%3CfeComposite%20in%3D%22shadowOffsetInner1%22%20in2%3D%22SourceAlpha%22%20k2%3D%22-1%22%20k3%3D%221%22%20operator%3D%22arithmetic%22%20result%3D%22shadowInnerInner1%22%2F%3E%3CfeColorMatrix%20in%3D%22shadowInnerInner1%22%20values%3D%220%200%200%200%201%200%200%200%200%201%200%200%200%200%201%200%200%200%200.750191215%200%22%2F%3E%3C%2Ffilter%3E%3ClinearGradient%20id%3D%22d%22%20x1%3D%2246.514%25%22%20x2%3D%2256.692%25%22%20y1%3D%2215.835%25%22%20y2%3D%2275.847%25%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23fff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fff%22%20stop-opacity%3D%22.601%22%2F%3E%3C%2FlinearGradient%3E%3Cpath%20id%3D%22a%22%20d%3D%22m40.34%2016.878.005.052%201.327%2014.35a2%202%200%200%201-1.754%202.17l-7.814.934-3.293%205.326a1%201%200%200%201-1.574.165l-4.207-4.407-8.113.969a2%202%200%200%201-2.228-1.802l-1.328-14.35a2%202%200%200%201%201.755-2.17l25-2.986a2%202%200%200%201%202.223%201.749%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate%28-9%20-14%29%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20fill%3D%22%23000%22%20filter%3D%22url%28%23c%29%22%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20fill%3D%22url%28%23d%29%22%2F%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20fill%3D%22%23000%22%20filter%3D%22url%28%23e%29%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    pointer-events: none;
+                    user-select: none;
+                    z-index: 2;
+                }
+            </style><button id="chat-button" style="display: block; position: fixed; bottom: 20px; right: 20px; width: 54px; height: 54px; background-color: rgb(60, 84, 114); border: none; border-radius: 100%; color: rgb(255, 255, 255); cursor: pointer; z-index: 2147483647; box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 10px 0px; transition: background-color 0.1s linear, outline 0.15s ease-in-out, transform 0.15s ease-in-out; pointer-events: auto; padding: 0px; margin: 0px; outline: rgba(0, 0, 0, 0) solid 0px; user-select: none;"><span class="chat-icon-span"></span></button></template></div><div id="chat-overlay-shadow-host" style="position: fixed; bottom: 0px; right: 0px; z-index: 2147483647; pointer-events: none;"><template shadowrootmode="open"><style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+                
+                /* CSS Reset for Shadow DOM */
+                * {
+                    box-sizing: border-box;
+                }
+                
+                #opacity-slider {
+                    -webkit-appearance: none;
+                    width: 100%;
+                    height: 2px;
+                    background: transparent;
+                    outline: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                #opacity-slider::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    appearance: none;
+                    width: 16px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background: rgb(60, 84, 114);
+                    cursor: pointer;
+                    transition: transform 0.2s, background 0.2s;
+                }
+                
+                #opacity-slider::-webkit-slider-thumb:hover {
+                    transform: scale(1.2);
+                    background: rgb(80, 104, 134);
+                }
+                
+                #opacity-slider::-moz-range-thumb {
+                    width: 16px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background: rgb(60, 84, 114);
+                    cursor: pointer;
+                    border: none;
+                    transition: transform 0.2s, background 0.2s;
+                }
+                
+                #opacity-slider::-moz-range-thumb:hover {
+                    transform: scale(1.2);
+                    background: rgb(80, 104, 134);
+                }
+                
+                /* Re-apply base styles needed */
+                div, span, p {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                button {
+                    cursor: pointer;
+                    border: none;
+                    background: none;
+                    color: inherit;
+                    font-family: 'Poppins', sans-serif;
+                }
+                
+                input[type="checkbox"] {
+                    cursor: pointer;
+                    width: 16px;
+                    height: 16px;
+                }
+                
+                label {
+                    cursor: pointer;
+                    font-family: 'Poppins', sans-serif;
+                }
+                
+                pre {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+                    font-family: monospace;
+                    white-space: pre-wrap;
+                }
+                
+                code {
+                    font-family: monospace;
+                }
+                
+                strong, b {
+                    font-weight: bold;
+                }
+                
+                em, i {
+                    font-style: italic;
+                }
+                
+                a {
+                    color: #0066cc;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+                
+                ul, ol {
+                    display: block;
+                    margin: 10px 0;
+                    padding-left: 20px;
+                }
+                
+                li {
+                    display: list-item;
+                    margin: 5px 0;
+                }
+                
+                p {
+                    margin: 10px 0;
+                    line-height: 1.5;
+                }
+                
+                h1, h2, h3, h4, h5, h6 {
+                    font-weight: bold;
+                    margin: 15px 0 10px 0;
+                    line-height: 1.3;
+                }
+                
+                h1 { font-size: 2em; }
+                h2 { font-size: 1.5em; }
+                h3 { font-size: 1.3em; }
+                h4 { font-size: 1.1em; }
+                h5 { font-size: 1em; }
+                h6 { font-size: 0.9em; }
+                
+                
+        
+                    .keyword { color: #0066CC; font-weight: bold; }
+                    .string { color: #008000; }
+                    .comment { color: #808080; font-style: italic; }
+                    .number { color: #FF6600; }
+                    .boolean { color: #0066CC; font-weight: bold; }
+                    .property { color: #9932CC; }
+                    .selector { color: #008000; font-weight: bold; }
+                    .value { color: #FF6600; }
+                    .tag { color: #0066CC; }
+                
+        
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        #chat-overlay ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+            transition: background-color 0.2s ease;
+        }
+
+        #chat-overlay ::-webkit-scrollbar-thumb:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        #chat-overlay ::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+
+        #chat-overlay [contenteditable]:empty:before {
+            content: attr(placeholder);
+            color: rgba(0, 0, 0, 0.4);
+            font-weight: 300;
+        }
+
+        /* Prism theme customizations for chat overlay */
+        #chat-overlay pre[class*="language-"] {
+            background: #f8f9fa !important;
+            border: 1px solid #e1e4e8 !important;
+            border-radius: 6px !important;
+            margin: 15px 0 !important;
+            padding: 12px !important;
+            overflow-x: auto !important;
+        }
+
+        #chat-overlay code[class*="language-"] {
+            background: transparent !important;
+            font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', Menlo, monospace !important;
+            font-size: 13px !important;
+            line-height: 1.4 !important;
+            color: #24292e !important;
+        }
+
+        /* Token colors for better readability */
+        #chat-overlay .token.comment,
+        #chat-overlay .token.prolog,
+        #chat-overlay .token.doctype,
+        #chat-overlay .token.cdata {
+            color: #6a737d !important;
+        }
+
+        #chat-overlay .token.punctuation {
+            color: #24292e !important;
+        }
+
+        #chat-overlay .token.property,
+        #chat-overlay .token.tag,
+        #chat-overlay .token.boolean,
+        #chat-overlay .token.number,
+        #chat-overlay .token.constant,
+        #chat-overlay .token.symbol,
+        #chat-overlay .token.deleted {
+            color: #005cc5 !important;
+        }
+
+        #chat-overlay .token.selector,
+        #chat-overlay .token.attr-name,
+        #chat-overlay .token.string,
+        #chat-overlay .token.char,
+        #chat-overlay .token.builtin,
+        #chat-overlay .token.inserted {
+            color: #032f62 !important;
+        }
+
+        #chat-overlay .token.operator,
+        #chat-overlay .token.entity,
+        #chat-overlay .token.url,
+        #chat-overlay .language-css .token.string,
+        #chat-overlay .style .token.string {
+            color: #e36209 !important;
+        }
+
+        #chat-overlay .token.atrule,
+        #chat-overlay .token.attr-value,
+        #chat-overlay .token.keyword {
+            color: #d73a49 !important;
+        }
+
+        #chat-overlay .token.function,
+        #chat-overlay .token.class-name {
+            color: #6f42c1 !important;
+        }
+
+        #chat-overlay .token.regex,
+        #chat-overlay .token.important,
+        #chat-overlay .token.variable {
+            color: #e36209 !important;
+        }
+
+        /* Remove any pseudo-elements that might cause overlay effects */
+        #chat-overlay pre[class*="language-"]:before,
+        #chat-overlay pre[class*="language-"]:after,
+        #chat-overlay code[class*="language-"]:before,
+        #chat-overlay code[class*="language-"]:after {
+            display: none !important;
+        }
+
+        /* Ensure no box-shadow or other effects */
+        #chat-overlay pre[class*="language-"] {
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+
+        #chat-overlay code[class*="language-"] {
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        
+            </style><div id="chat-overlay" style="display: none; position: fixed; bottom: 20px; right: 20px; width: 380px; height: 500px; background-color: rgb(255, 255, 255); border: none; border-radius: 16px; box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px; z-index: 2147483647; flex-direction: column; font-family: Poppins, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, sans-serif; overflow: hidden; transition: opacity 0.3s; pointer-events: auto; opacity: 1;"><div style="padding: 16px 20px !important; font-weight: 500 !important; display: flex !important; justify-content: space-between !important; align-items: center !important; background-color: rgb(255, 255, 255) !important; color: rgb(51, 51, 51) !important; cursor: move !important;">
+        <div style="display: flex !important; flex-direction: column !important; align-items: flex-start !important; gap: 2px !important;">
+            <span style="display: flex !important; align-items: center !important; gap: 8px !important; font-size: 18px !important; font-weight: 700 !important; color: rgb(60, 84, 114) !important; opacity: 0.85 !important;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+                Chat
+            </span>
+            <span style="font-size: 12px !important; font-weight: 500 !important; color: #777 !important; margin-left: 30px !important;">
+                Alt+C to toggle
+            </span>
+        </div>
+        <div style="display: flex !important; gap: 14px !important; align-items: center !important;">
+            <span id="clear-chat" style="cursor: pointer !important; font-size: 14px !important; font-weight: 600 !important; color: rgb(220, 53, 69) !important; padding: 4px 8px !important; transition: all 0.2s ease !important;" onmouseover="this.style.opacity=&#39;0.7&#39;" onmouseout="this.style.opacity=&#39;1&#39;">Clear</span>
+            <span id="close-chat" style="cursor: pointer !important; font-size: 22px !important; line-height: 1 !important; color: #888 !important; transition: color 0.2s ease !important; font-weight: 500 !important;" onmouseover="this.style.color=&#39;#333&#39;" onmouseout="this.style.color=&#39;#888&#39;">×</span>
+        </div>
+        </div><div style="width: 100%; height: 2px; background-color: rgba(60, 84, 114, 0.1); position: relative; z-index: 10; display: flex; align-items: center;"><input type="range" min="15" max="100" id="opacity-slider" title="Adjust opacity / Enable Stealth Mode"></div><div id="chat-messages" style="padding: 20px; flex: 1 1 0%; overflow-y: auto; background-color: rgb(250, 250, 250); color: rgb(51, 51, 51); scroll-behavior: smooth; white-space: pre-wrap; display: flex; flex-direction: column; gap: 12px;"></div><div style="padding: 12px 16px 16px; background-color: rgb(255, 255, 255); display: flex; flex-direction: column; gap: 8px; z-index: 10;"><div style="display: none; align-items: center; gap: 8px; padding: 4px 0px;"><input type="checkbox" id="chat-about-question-checkbox" style="width: 16px; height: 16px; cursor: pointer; accent-color: rgb(60, 84, 114);"><label for="chat-about-question-checkbox" style="font-family: Poppins, sans-serif; font-size: 13px; color: rgb(102, 102, 102); cursor: pointer; user-select: none; display: flex; align-items: center; gap: 6px; font-weight: 400;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+        </svg>
+        <span>Chat about question</span></label></div><div style="display: flex; align-items: stretch; background-color: rgb(244, 246, 248); border: 1px solid rgba(0, 0, 0, 0.08); border-radius: 24px; padding: 0px; transition: 0.2s; box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 6px; gap: 0px; overflow: hidden; min-height: 44px;"><div contenteditable="plaintext-only" style="flex: 1 1 0%; padding: 12px 12px 12px 16px; border: none; outline: none; background-color: transparent; color: rgb(34, 34, 34); font-family: Poppins, sans-serif; font-size: 14px; line-height: 1.5; font-weight: 400; min-height: 45px; max-height: 66px; overflow: hidden auto; white-space: pre-wrap; overflow-wrap: break-word; -webkit-user-modify: read-write-plaintext-only; display: block;"></div><button style="padding: 0px 20px 0px 16px; margin: 0px; background-color: rgb(60, 84, 114); color: rgb(255, 255, 255); border: none; border-radius: 0px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-family: Poppins, sans-serif; font-weight: 500; font-size: 14px; letter-spacing: 0.3px; transition: 0.2s; flex-shrink: 0; height: auto; box-shadow: rgba(0, 0, 0, 0.05) -1px 0px 3px;">Send</button></div></div><div style="position: absolute; top: 0px; left: 0px; width: 12px; height: 12px; background-color: rgb(60, 84, 114); cursor: nw-resize; border-radius: 12px 0px; opacity: 0.8;"></div></div></template></div><script src="./parallel data processor_files/loader.js.download"></script><div class="monaco-aria-container"><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-status" aria-live="polite" aria-atomic="true"></div><div class="monaco-status" aria-live="polite" aria-atomic="true"></div></div></body></html>
